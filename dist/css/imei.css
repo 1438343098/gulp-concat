@@ -1,0 +1,223 @@
+.imeidetailcontent
+{
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 90%;
+    margin: 40px auto;
+    background: white;
+    padding: 0 10px;
+    border-top: 2px solid red;
+}
+.imeintroduce
+{
+	float: left;
+	color: gray;
+	padding: 30px 0;
+	margin-left:40px;
+	width: 50%;
+}
+.imeintroduce li
+{
+	padding: 5px;
+}
+.imeunindentcont
+{
+	float: left;
+	width:100%;
+	height: 300px;
+	color: gray;
+	text-align: left;
+	padding: 20px;
+}
+.imeunindentcont li
+{
+	padding: 3px;
+}
+.imecancelindentcont
+{
+	float: left;
+	width:100%;
+	height: 300px;
+	color: gray;
+	text-align: left;
+	display: none;
+	padding: 20px;
+}
+.imecancelindentcont li
+{
+	padding: 3px;
+}
+.imeindentingcont
+{
+	float: left;
+	width:100%;
+	height: 300px;
+	color: gray;
+	text-align: left;
+	display: none;
+	padding: 20px;
+}
+.imeindentingcont li
+{
+	padding: 3px 0;
+	white-space: nowrap;
+}
+.imefinishindentcont
+{
+	float: left;
+	width:100%;
+	height: 300px;
+	color: gray;
+	text-align: left;
+	display: none;
+	padding: 20px;
+}
+.imefinishindentcont li
+{
+	padding: 3px;
+}
+.imessage
+{
+	width: 50%;
+	border-right: 1px solid lightgray;
+	float: left;
+	margin-top: 20px;
+	padding-bottom: 200px;
+}
+
+.imdetailmessage
+{
+	float: left;
+	text-align: center;
+	padding: 30px 0px;
+}
+.imdetailmessage img
+{
+	border-radius: 50%;
+	width: 120px;
+	height: 120px;
+}
+.imeimei
+{
+	background: #25bfbb;
+	padding: 5px;
+	border-radius: 50px;
+	font-size: 13px;
+	color: white;
+	width: 150px;
+	text-align: center;
+	margin-top: 10px;
+}
+.imdetailmessage div:last-child
+{
+	padding: 10px 0;
+	color: gray;
+}
+.imeindentcont
+{
+	text-align: center;
+	margin-top: 10px;
+}
+.imeindentcontdiv
+{
+	margin-top: 10px;
+	border-radius: 10px;
+	border-top: 1px solid gray;
+}
+.imeunindent
+{
+	padding: 8px;
+	margin: 30px 15px 8px 0;
+	background: red;
+    border-radius: 5px;
+    box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.09);
+    border: 1px;
+    color: white;
+    border-color: white;
+    outline: none;
+    cursor: pointer;
+}
+.imecancelindent
+{
+	padding: 7px;
+	margin: 30px 15px 8px 0;
+	background: red;
+    border-radius: 5px;
+    box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.09);
+    border: 1px;
+    color: white;
+    border-color: white;
+    outline: none;
+    cursor: pointer;
+}
+.imeindenting
+{
+	padding: 7px;
+	margin: 30px 15px 8px 0;
+	background: red;
+    border-radius: 5px;
+    box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.09);
+    border: 1px;
+    color: white;
+    border-color: white;
+    outline: none;
+    cursor: pointer;
+}
+.imefinishindent
+{
+	padding: 7px;
+	margin: 30px 0px 8px 0;
+	background: red;
+    border-radius: 5px;
+    box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.09);
+    border: 1px;
+    color: white;
+    border-color: white;
+    outline: none;
+    cursor: pointer;
+}
+.imebuttonindent
+{
+	margin: 0 auto;
+}
+.imeindent
+{
+	float: left;
+	width: 45%;
+	height: 300px;
+	padding: 5px 10px;
+}
+.imeindentcont
+{
+	text-align: center;
+	margin-top: 10px;
+}
+.imered
+{
+	color: red;
+}
+.imesdebtn
+{
+	margin-left: 40px;
+	background: red;
+	padding: 8px 10px;
+	border-radius: 5px;
+	box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.09);
+	border: 1px;
+	color: white;
+	border-color: white;
+	outline: none;
+	cursor: pointer;
+}
+.indentime
+{
+	padding: 7px;
+	background: red;
+    border-radius: 50px;
+    box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.09);
+    border: 1px;
+    color: white;
+    border-color: white;
+    outline: none;
+    cursor: pointer;
+}

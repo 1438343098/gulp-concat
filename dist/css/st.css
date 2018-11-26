@@ -1,0 +1,586 @@
+.stchild {
+	width: 570px;
+	height: 500px;
+	border: 1px solid #333333;
+	display: none;
+	margin-top: -90px;
+	border-radius: 10px;
+}
+
+.st {
+	margin-left: 180px;
+}
+
+.datas {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -341px;
+	margin-top: -210px;
+}
+
+.ft {
+	float: left;
+}
+
+.minlv {
+	margin: 30px 0 0px 20px;
+	color: gray;
+}
+
+.maxlv {
+	margin: 30px 0 0px 165px;
+	color: gray;
+}
+
+.lvbtns,.bsgbtns,.tempsbtns,.stphonebtns,.sosbtns{
+	border-top: 1px solid lightgray;
+	width: 100%;
+	height: 118px;
+	margin-top: 30px;
+}
+.bldbtns {
+	border-top: 1px solid lightgray;
+	width: 100%;
+	height: 94px;
+	margin-top: 30px;
+}
+.bsgbtns
+{
+	height: 88px!important;
+}
+.stphonebtns
+{
+	height: 91px!important;
+}
+.sosbtns
+{
+	height: 91px!important;
+	margin-top: 20px!important;
+}
+.phonetext
+{
+	width: 400px;
+    min-height: 60px;
+    outline: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: #FF5722;
+    font-weight: bolder;
+    font-size: 16px;
+    border: 1px solid gray;
+}
+.lvcancel,.bsgcancel,.tempcancel,.stphonecancel,.soscancel{
+	float: left;
+	width: 223px;
+	height: 100%;
+	border-right: 1px solid lightgray;
+}
+
+.lvconfrm,.bsgconfrm,.tempconfrm,.stphoneconfrm,.sosconfrm{
+	float: left;
+	width: 225px;
+	height: 100%;
+}
+.bldcancel {
+	float: left;
+	width: 223px;
+	height: 100%;
+	border-right: 1px solid lightgray;
+}
+
+.bldconfrm {
+	float: left;
+	width: 225px;
+	height: 100%;
+}
+
+.stepbtns {
+	border-top: 1px solid lightgray;
+	width: 100%;
+	height: 84px;
+	margin-top: 20px;
+}
+
+.stepcancel {
+	float: left;
+	width: 223px;
+	height: 100%;
+	border-right: 1px solid lightgray;
+}
+
+.stepconfrm {
+	float: left;
+	width: 225px;
+	height: 100%;
+}
+
+.lvon,.bldon,.bsgon,.tempon {
+	background: red;
+	color: white;
+	border-radius: 15px;
+	outline: none;
+	width: 50px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	margin-left: 20px;
+	cursor: pointer;
+	box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.09);
+}
+
+.lvoff,.bldoff,.bsgoff,.tempoff{
+	background: lightgray;
+	color: #666666;
+	border-radius: 15px;
+	outline: none;
+	width: 50px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	margin-left: 20px;
+	cursor: pointer;
+	box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.09);
+}
+
+.stconts {
+	width: 91%;
+	height: 40px;
+	border-bottom: 1px solid #333333;
+	line-height: 40px;
+	color: gray;
+	padding: 15px 25px;
+	letter-spacing: 1px;
+	cursor: pointer;
+	position: relative;
+}
+.lminbld,.lmaxbld,.hminbld,.hmaxbld
+{
+	color:#f51515;
+	font-size: 15px;
+}
+.dshu
+{
+	margin: 10px 0 0px 20px;
+    color: gray;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+}
+.gshou
+{
+	margin: 20px 0 0px 20px;
+    color: gray;
+    border-top: 1px solid lightgray;
+    padding-top: 10px;
+}
+.stalert1,
+.stalert2,
+.stalert3,
+.stalert4,
+.stalert5,
+.stalert6,
+.stalert7,
+.stalert8,
+.stalert9,
+.stalert10 {
+	/*position: absolute;
+	top: 85px;
+	left: 75px;
+	width: 350px;
+	height: 200px;
+	background: #eee;
+	z-index: 999;
+	display: none;
+	border-radius: 10px;*/
+}
+
+.lvcontent,.bsgcontent,.tempcontent,.stphonect,.soscontent{
+	position: absolute;
+	top: 0px;
+	left: 215px;
+	width: 450px;
+	height: 200px;
+	background: white;
+	border: 1px solid lightgray;
+	z-index: 999;
+	display: none;
+	border-radius: 10px;
+}
+#fencemap
+{
+	width: 100%;
+	height: 380px;
+}
+.fenclick
+{
+	padding: 10px 20px 5px 20px;
+    color: #666;
+    letter-spacing: 1px;
+}
+.fencelang
+{
+	padding: 0 20px 5px 20px;
+    color: #666;
+    letter-spacing: 1px;
+}
+.fencelang div:first-child
+{
+	float: left;
+}
+.fencelang div:last-child
+{
+	float: right;
+}
+.fencelng,.fencelat
+{
+	color: red;
+}
+.fenradius
+{
+	padding: 0 20px 5px 20px;
+    color: #666;
+    letter-spacing: 1px;
+}
+.fenradius div:first-child
+{
+	float: left;
+}
+
+.fenradius div:last-child
+{
+	float: right;
+	margin-right: 34px;
+}
+.fenradius div:first-child input
+{
+	outline: none;
+	margin-right: 5px;
+	height: 25px;
+    line-height: 25px;
+    border-radius: 5px;
+    text-align: left;
+    border: 1px solid gray;
+    padding: 0 3px;
+    color: #FF5722!important;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.fenradius div:last-child input
+{
+	width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+.fencebtn
+{
+	margin: 0 20px 0px 20px;
+    color: #666;
+    letter-spacing: 1px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    margin-top: 5px;
+}
+.fencecancel
+{
+	float: left;
+    border-right: 1px solid lightgray;
+}
+.fencecancel button
+{
+	width: 80px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+    color: #666666;
+    margin:10px 80px 10px 130px;
+    border: 1px solid gray;
+    background: white;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+}
+.fenceconfirm
+{
+	float: right;
+}
+.fenceconfirm button
+{
+	margin: 0 20px 5px 20px;
+    color: #666;
+    letter-spacing: 1px;
+    width: 80px;
+    margin: 10px 60px 0 0;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+    color: gray;
+    border: 1px solid gray;
+    background: white;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+}
+}
+.bsgcontent
+{
+	height: 170px!important;
+}
+.stphonect
+{
+	top: 173px!important;
+	height: 300px!important;
+}
+.soscontent
+{
+	height: 411px!important;
+	left: 245px!important;
+}
+.phipt
+{
+	margin-top: 10px;
+}
+.pnum
+{
+	padding: 10px 30px 0 30px;
+	color: #666666;
+}
+.phipt input
+{
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-left: 100px;
+    width: 200px;
+    padding: 0 3px;
+    color: #FF5722;
+    font-weight: bolder;
+    outline: none;
+    letter-spacing: 1px;
+    ime-mode: disabled;
+}
+.bloodct {
+	position: absolute;
+	top: 0px;
+	left: 215px;
+	width: 450px;
+	height: 320px;
+	background: white;
+	border: 1px solid lightgray;
+	z-index: 999;
+	display: none;
+	border-radius: 10px;
+}
+
+.spcontent,.fencecontent{
+	position: absolute;
+	top: 0px;
+	left: 215px;
+	width: 450px;
+	height: 180px;
+	background: white;
+	border: 1px solid lightgray;
+	z-index: 999;
+	display: none;
+	border-radius: 10px;
+}
+.fencecontent
+{
+	width: 600px!important;
+	height:542px!important;
+	left: 255px!important;
+	top: -65px!important;
+}
+.num1,.num2,.num3,.num4
+{
+	color: #FF5722;
+	font-weight: bolder;
+}
+.lvtrangle,.bsgtrangle,.temptrangle,.blodtrangle,.sptrangle,.fencetrangle,.stphonetran,.sostrangle{
+	position: absolute;
+	top: -10px;
+	left: 230px;
+	border-left: 10px solid white;
+	border-right: 10px solid white;
+	border-bottom: 10px solid lightgray;
+	width: 0;
+	height: 0;
+}
+.fencetrangle
+{
+	left: 300px!important;
+}
+.stalerts1 {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+.none1,
+.none2,
+.none3,
+.none4,
+.none5,
+.none6,
+.none7{
+	background: white;
+	border-radius: 15px;
+	color: #666666!important;
+	border-radius: 15px;
+	outline: none;
+	font-size: 16px;
+	font-family: 微软雅黑;
+	width: 100px;
+	letter-spacing: 1px;
+	border: 1px solid gray;
+	height: 50px;
+	cursor: pointer;
+	text-align: center;
+	margin: 30px 0 0px 60px;
+}
+
+.none2,.none3,.none4,.none5,.none6,.none7 {
+	margin-top: 20px!important;
+}
+
+.stconfirm1,.stconfirm2 ,.stconfirm3,.stconfirm4,.stconfirm5,.stconfirm6,.stconfirm7{
+	background: white;
+	color: #666;
+	border-radius: 15px;
+	outline: none;
+	font-size: 16px;
+	font-family: 微软雅黑;
+	width: 100px;
+	letter-spacing: 1px;
+	border: 1px solid gray;
+	height: 50px;
+	cursor: pointer;
+	text-align: center;
+	margin: 30px 0 0px 60px;
+}
+
+.stconfirm2,.stconfirm3,.stconfirm4,.stconfirm5,.stconfirm6,.stconfirm7{
+	margin-top: 20px!important;
+}
+
+#sttepcont {
+	padding: 5px;
+	margin: 10px 0 0 20px;
+	width: 400px;
+	font-size: 15px;
+	text-align: left;
+	border: 1px solid lightgray;
+	outline: none;
+	ime-mode: disabled;
+}
+
+.shcont {
+	margin: 15px 20px 0 20px;
+	color: #666;
+	letter-spacing: 1px;
+}
+
+.stnum {
+	color: red;
+	font-weight: bold;
+}
+
+.stconts2 .tlv {
+	display: inline!important;
+}
+
+.stconts2 .tdistance,
+.stconts5 .tdistance,
+.stconts5 .tminu,
+.stconts7 .tdistance,
+.stconts7 .tminu {
+	display: inline!important;
+	color: gray!important;
+}
+
+.stconts2 .tminu {
+	display: inline!important;
+}
+
+.stconts5 .tstep {
+	display: inline!important;
+}
+
+.stconts7 .tpos {
+	display: inline!important;
+}
+
+.stconts8 .tsleep {
+	display: inline!important;
+}
+.stconts16 .sitset {
+	display: inline!important;
+}
+.stconts15,.stconts17
+{
+	height: 100%!important;
+	line-height:25px!important;
+}
+.sosnum
+{
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+.sosnum1,.sosnum2,.sosnum3
+{
+	color: #FF5722;
+	font-weight: bolder;
+}
+.sosconts1
+{
+	padding: 20px 30px 0 30px;
+    color: #666666;
+}
+.sosconts2,.sosconts3,.sosconts4
+{
+	padding: 10px 30px 0 30px;
+    color: #666666;
+}
+.sosconts1 input,.sosconts2 input,.sosconts3 input,.sosconts4 input
+{
+	height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-left: 100px;
+    width: 200px;
+    padding: 0 3px;
+    color: #FF5722;
+    font-weight: bolder;
+    outline: none;
+    letter-spacing: 1px;
+}
+.sosconts4 input:last-child
+{
+	margin-left: 80px!important;
+}
+.sosmesg
+{
+	font-size: 18px;
+    margin-top: 20px;
+    padding: 10px 30px 0 30px;
+    color: #666666;
+    border-top: 1px solid lightgray;
+}
+#layui-laydate1 .setime,#layui-laydate2 .setime,#layui-laydate3 .setime {
+	display: block!important;
+}
+#layui-laydate4 .checkbox {
+	display: block!important;
+}
+#layui-laydate5 .start {
+	display: block!important;
+}
+
+#layui-laydate4 .setime {
+	display: none;
+}

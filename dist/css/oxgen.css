@@ -1,0 +1,92 @@
+.oxygencontent
+{
+	border: 1px solid white;
+	border-radius: 5px;
+	width: 90%;
+	margin: 40px auto;
+	background: white;
+	padding: 0 10px;
+	border-top: 2px solid red;
+}
+.oxygenheader
+{
+	padding: 10px;
+	color: #444444;
+}
+.oxygentxtrt
+{
+	margin-top: 6px;
+}
+.oxygentxtrt span
+{
+	letter-spacing: 1px;
+	padding: 5px;
+	font-size: 17px;
+}
+.oxygentxtrt span input
+{
+	width: 45px;
+	height: 18px;
+	background: white;
+	border: none;
+	box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.09);
+	outline: none;
+	margin-left: 5px;
+}
+.oxygentxtrt button
+{
+	background: red;
+	padding: 8px 10px;
+	border-radius: 5px;
+	box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.09);
+	border: 1px;
+	color: white;
+	border-color: white;
+	outline: none;cursor: pointer;
+}
+.oxygendata
+{
+	border-bottom: 1px solid lightgray;
+	padding: 10px;
+}
+.oxygendata div
+{
+	float: left;
+	width: 26%;
+	padding: 0 10px;
+	font-size: 16px;
+	text-align: center;
+	font-weight: bold;
+	color: rgba(0,0,0,.5);
+}
+.oxygenum
+{
+	height:60px;
+	display:table;
+	width: 100%;
+}
+.oxygenum ul
+{
+	vertical-align:middle;
+	display:table-cell;
+	cursor:pointer;
+}
+.oxygen_ulodd
+{
+	background: #F8F8F8;
+}
+.oxygen_uleven
+{
+	background: white;
+}
+.oxygenum ul li
+{
+	float: left;
+	vertical-align: middle;
+	font-size: 15px;
+	width: 26%;
+	padding: 10px;
+	text-align: center;
+	color: gray;
+}
+

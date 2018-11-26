@@ -1,0 +1,65 @@
+.serecordcontent
+{
+	border: 1px solid white;
+	border-radius: 5px;
+	width: 90%;
+	margin: 40px auto;
+	background: white;
+	padding: 0 10px;
+	border-top: 2px solid red;
+}
+.serecordata
+{
+	border-bottom: 1px solid lightgray;
+	padding: 20px 10px;
+}
+.serecordata div
+{
+	float: left;
+	width: 25%;
+	padding: 0 10px;
+	font-size: 16px;
+	text-align: center;
+	font-weight: bold;
+	color: rgba(0,0,0,.5);
+}
+.serecordata div:nth-of-type(1),.serecordata div:nth-of-type(2)
+{
+	width: 30%;
+}
+.serecordcont
+{
+	height:40px;
+	display:table;
+	width: 100%;
+}
+
+.serecordcont ul
+{
+	vertical-align:middle;
+	display:table-cell;
+	cursor:pointer;
+}
+.serecord_ulodd
+{
+	background: #F8F8F8;
+}
+.serecord_uleven
+{
+	background: white;
+}
+.serecordcont ul li
+{
+	float: left;
+	vertical-align: middle;
+	font-size: 13px;
+	width: 25%;
+	padding: 10px;
+	text-align: left;
+	color: gray;
+	letter-spacing: 1px;
+}
+.serecordcont ul li:nth-of-type(1),.serecordcont ul li:nth-of-type(2)
+{
+	width: 30%;
+}

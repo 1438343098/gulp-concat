@@ -1,0 +1,24 @@
+{
+  "name": "gulp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "*",
+    "gulp": "*",
+    "gulp-jshint": "*",
+    "gulp-less": "*",
+    "jshint": "*",
+    "jshint-stylish": "*",
+    "stylish": "*",
+	"gulp-minify-css": "*",
+	"fs":"*",
+	"gulp-replace":"*"
+
+  }
+}

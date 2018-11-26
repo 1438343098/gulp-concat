@@ -1,0 +1,569 @@
+.basicmsg {
+	border-top: 2px solid red;
+	border-radius: 5px;
+	padding: 20px 20px 10px 20px;
+	color: #333;
+	font-size: 18px;
+}
+
+.bone {
+	border: none;
+}
+
+.green {
+	color: green;
+}
+
+.btom {
+	border-bottom: 1px solid gray;
+	padding-bottom: 15px;
+}
+
+.padfv {
+	float: left;
+	padding: 5px;
+}
+
+.marve {
+	margin-left: 5px;
+}
+
+input {
+	/*text-align: center;*/
+}
+
+.ipt {
+	height: 35px;
+	line-height: 35px;
+	outline: none;
+	border-radius: 5px;
+	border: 1px solid gray;
+	padding: 0 0 0 3px!important;
+	font-size: 15px;
+	width: 175px;
+	letter-spacing: 1px;
+	vertical-align: middle;
+}
+
+.inpt {
+	height: 35px;
+	line-height: 35px;
+	outline: none;
+	border-radius: 5px;
+	border: 1px solid gray;
+	padding: 0 0 0 3px!important;
+	margin-right: 30px;
+	font-size: 15px;
+	letter-spacing: 1px;
+	vertical-align: middle;
+}
+
+.mar16 {
+	margin-left: 16px;
+}
+
+.iname {
+	height: 29px;
+	line-height: 29px;
+	outline: none;
+	border-radius: 5px;
+	border: 1px solid gray;
+	padding: 3px;
+	margin-right: 15px;
+	font-size: 15px;
+	letter-spacing: 1px;
+	color: gray;
+	vertical-align: middle;
+}
+
+.radio {
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+	margin: 0 5px 0 5px!important;
+	background: white;
+}
+
+.radios {
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+	margin: 0 5px 0 15px!important;
+	background: white;
+}
+
+.marty {
+	margin-left: 115px;
+}
+
+.sedu {
+	font-size: 16px;
+	padding: 10px;
+	margin-left: 20px;
+}
+
+.btoms {
+	color: #333333;
+}
+
+.btoms input {
+	color: black;
+	font-size: 16px;
+	background: aliceblue;
+}
+
+.agelse {
+	font-size: 16px;
+	padding: 10px;
+	margin-left: 20px;
+}
+
+.mstatus {
+	margin-left: 77px;
+}
+
+.mtop10 {
+	margin-top: 10px;
+}
+
+.mtop15 {
+	margin-top: 15px;
+}
+
+.mtop20 {
+	margin-top: 20px;
+}
+
+.leften {
+	margin: 0 5px 0 10px;
+}
+
+.lefsix {
+	margin-left: 160px;
+}
+
+.leftwv {
+	margin: 0 5px 0 35px;
+}
+
+.lefotw {
+	margin-left: 138px;
+}
+
+.servert {
+	margin: 0 0 10px 135px;
+}
+
+.hob,
+.ewma {
+	width: 300px;
+	min-height: 80px;
+	border-radius: 5px;
+	vertical-align: middle;
+	outline: none;
+	border: 1px solid gray;
+	letter-spacing: 1px;
+}
+
+.hob {
+	margin-right: 50px;
+	font-size: 15px;
+	color: black;
+	background: aliceblue;
+	padding: 10px;
+}
+
+.haddress,
+.haddetail {
+	font-size: 16px;
+	padding: 10px;
+	margin-left: 20px;
+	height: 35px;
+	line-height: 35px;
+}
+
+.xian {
+	margin-left: 74px;
+}
+
+.dethome {
+	width: 430px;
+}
+
+.servemsg,
+.basmsg {
+	border-radius: 5px;
+	padding: 10px 20px;
+	color: #333;
+	font-size: 18px;
+}
+
+.basicmsg span,
+.servemsg span,
+.basmsg span {
+	margin-left: 30px;
+}
+
+.server {
+	font-size: 16px;
+	padding: 10px;
+	margin-left: 20px;
+}
+
+.commuite {
+	margin: 0 30px 0 5px;
+}
+
+.scomuite {
+	margin-left: 51px;
+}
+
+.basname {
+	font-size: 16px;
+	padding: 10px;
+	margin-left: 20px;
+}
+
+.wth {
+	width: 200px;
+}
+
+.shu,
+.pman,
+.homepne,
+.helpman,
+.tshi,
+.tzhi,
+.share,
+.type,
+.payway,
+.basemsg,
+.medsecurity,
+.slowb,
+.shib,
+.disabled,
+.distype {
+	font-size: 16px;
+	padding: 10px;
+	margin-left: 20px;
+}
+
+.shu input,
+.pman input {
+	margin-right: 15px;
+}
+
+.mar32 {
+	margin-left: 32px;
+}
+
+.mar15 {
+	margin-left: 15px;
+}
+
+.helpo {
+	margin-right: 65px;
+}
+
+.helpt {
+	margin-right: 65px;
+}
+
+.tes {
+	margin: 0 65px 0 15px;
+}
+
+.tzi {
+	margin-right: 65px;
+}
+
+.mar50 {
+	margin-left: 50px;
+}
+
+.mar100 {
+	margin-left: 100px;
+}
+
+.checkbx {
+	width: 18px;
+	height: 18px;
+	margin: 0 5px;
+	background: gray;
+	vertical-align: middle;
+}
+
+.payway span,
+.medsecurity span {
+	margin-right: 5px;
+}
+
+.shib span {
+	margin-right: 15px;
+}
+
+.disabled span,
+.distype span {
+	margin-right: 20px;
+}
+
+.marls {
+	margin-left: 34px;
+}
+
+.mar115 {
+	margin-left: 115px;
+}
+
+.mar30 {
+	margin-left: 30px;
+}
+
+.mar65 {
+	margin-left: 65px;
+}
+
+.wtw {
+	min-width: 250px;
+}
+
+.wty {
+	min-width: 200px;
+}
+
+#to_basic {
+	width: 80px;
+	height: 20px;
+	padding: 10px;
+	font: 14px/20px arial;
+	text-align: center;
+	background: #0fa4a1;
+	border-radius: 5px;
+	position: fixed;
+	top: 150px;
+	right: 0;
+	cursor: pointer;
+	color: #fff;
+}
+
+#to_top {
+	width: 80px;
+	height: 20px;
+	padding: 10px;
+	font: 14px/20px arial;
+	text-align: center;
+	background: #0fa4a1;
+	border-radius: 5px;
+	position: fixed;
+	top: 220px;
+	right: 0;
+	cursor: pointer;
+	color: #fff;
+}
+
+#to_health {
+	width: 120px;
+	height: 20px;
+	padding: 10px;
+	font: 14px/20px arial;
+	text-align: center;
+	background: #0fa4a1;
+	border-radius: 5px;
+	position: fixed;
+	top: 290px;
+	right: 0;
+	cursor: pointer;
+	color: #fff;
+}
+
+#to_top img,
+#to_basic img,
+#to_health img {
+	vertical-align: middle;
+}
+
+#to_tops {
+	width: 40px;
+	height: 40px;
+	padding: 20px;
+	font: 14px/20px arial;
+	text-align: center;
+	border: 1px solid white;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 300px;
+	left: 45px;
+	cursor: pointer;
+	color: #fff
+}
+
+.oldcancel {
+	top: 320px;
+	right: 60px;
+	position: fixed;
+	border: 1px solid #0fa4a1;
+	width: 30px;
+	height: 30px;
+	padding: 15px;
+	border-radius: 50%;
+	background: #0fa4a1;
+	cursor: pointer;
+}
+
+.oldcancel img:last-child {
+	margin-top: -10px;
+	margin-left: 2px;
+}
+
+.oldconfirm {
+	top: 420px;
+	right: 60px;
+	position: fixed;
+	border: 1px solid #0fa4a1;
+	width: 30px;
+	height: 30px;
+	padding: 15px;
+	border-radius: 50%;
+	background: #0fa4a1;
+	cursor: pointer;
+}
+
+.relative {
+	position: relative;
+}
+
+.oldimei {
+	background: #25bfbb;
+	padding: 5px;
+	border-radius: 50px;
+	border: 1px solid #25BFBB;
+	font-size: 13px;
+	color: white;
+	width: 150px;
+	text-align: center;
+	margin: 20px 10px 10px 0;
+	outline: none;
+}
+
+.oldmessage {
+	float: left;
+	text-align: center;
+	padding: 30px 0px;
+	position: fixed;
+	top: 110px;
+	right: 0px;
+}
+
+#inpFile {
+	opacity: 0;
+	position: absolute;
+	top: 0px;
+	width: 80px;
+	height: 40px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.itearset {
+	width: 80px;
+	height: 50px;
+	text-align: center;
+	border-radius: 5px;
+	border: 1px solid #25bfbb;
+	padding: 10px 5px;
+	cursor: pointer;
+	outline: none;
+	background: #25bfbb;
+	color: white;
+	margin-right: 10px;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	letter-spacing: 1px;
+}
+
+#imgDelete {
+	margin-right: 20px;
+	width: 80px;
+	height: 50px;
+	text-align: center;
+	border-radius: 5px;
+	border: 1px solid #25bfbb;
+	padding: 10px 5px;
+	cursor: pointer;
+	outline: none;
+	background: #25BFBB;
+	color: white;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	letter-spacing: 1px;
+}
+
+.oldmessage div:last-child {
+	padding: 10px 0;
+	color: gray;
+	margin-left: -25px;
+}
+.squ
+{
+	padding: 5px 0;
+}
+.squ span,.gutshi span,.guzhi span {
+	margin-left: 30px;
+}
+
+.helpadd,.guadd,.gzadd {
+	vertical-align: middle;
+	margin-left: 15px;
+	cursor: pointer;
+}
+.guadd 
+{
+	margin-left: 30px;
+}
+.sclose,.gclose,.gzclose
+{
+	vertical-align: middle;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.scheck,.gcheck,.gzcheck
+{
+	vertical-align: middle;
+	cursor: pointer;
+	margin-left:5px;
+}
+.guman,.gzman
+{
+	margin-bottom: 20px;
+}
+.age
+{
+	height: 30px;
+    line-height: 30px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 0 0 0 3px!important;
+    margin-right: 5px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    width: 60px;
+    vertical-align: middle;
+}
+.marnine
+{
+	margin-left: 90px;
+}
+.bfive
+{
+	margin-bottom: 5px;
+}
+.bten
+{
+	margin-bottom: 10px;
+}
+.oderimei
+{
+	font-size: 15px;
+    margin-left: -40px;
+}

@@ -1,0 +1,105 @@
+	.deservecontent
+	{
+		border: 1px solid white;
+		border-radius: 5px;
+		width: 90%;
+		margin: 40px auto;
+		background: white;
+		padding: 0 10px;
+		border-top: 2px solid red;
+	}
+	.deservedata
+	{
+		border-bottom: 1px solid lightgray;
+		padding: 20px 10px;
+	}
+	.deservedata div
+	{
+		float: left;
+		width: 9%;
+		padding: 0 10px;
+		font-size: 16px;
+		text-align: center;
+		font-weight: bold;
+		color: rgba(0,0,0,.5);
+		word-break: break-all;
+	}
+	.deservedata div:first-child
+	{
+		width: 14%;
+	}
+	.deservedata div:nth-of-type(3)
+	{
+		width: 10%;
+	}
+	.deservedata div:nth-of-type(4),.deservedata div:nth-of-type(7)
+	{
+		width: 12%;
+	}
+	.deservedata div:nth-of-type(5),.deservedata div:nth-of-type(8)
+	{
+		width: 5%;
+	}
+	.deservedata div:nth-of-type(6)
+	{
+		width: 11%;
+	}
+	.deservecont
+	{
+		height:60px;
+		display:table;
+		width: 100%;
+	}
+	.deservecont ul
+	{
+		vertical-align:middle;
+		display:table-cell;
+		cursor:pointer;
+	}
+	.deserve_ulodd
+	{
+		background: #F8F8F8;
+	}
+	.deserve_uleven
+	{
+		background: white;
+	}
+	.deservecont ul li
+	{
+		float: left;
+		vertical-align: middle;
+		font-size: 15px;
+		width: 9%;
+		padding: 10px;
+		text-align: center;
+		color: gray;
+		word-break: break-all;
+	}
+	.deservecont ul li:first-child
+	{
+		width: 15%;
+	}
+	.deservecont ul li:nth-of-type(5)
+	{
+		width: 5%;
+	}
+	.deservecont ul li:nth-of-type(3),.deservecont ul li:nth-of-type(6)
+	{
+		width: 12%;
+	}
+	.deservecont ul li:nth-of-type(2),.deservecont ul li:nth-of-type(4)
+	/*,.deservecont ul li:nth-of-type(8)*/
+	{
+		text-overflow: ellipsis;
+		overflow: hidden;
+		white-space: nowrap;
+		letter-spacing: 1px;
+	}
+	.deservecont ul li:nth-of-type(7),.deservecont ul li:nth-of-type(8)
+	{
+		letter-spacing: 1px;
+	}
+	.descontent
+	{
+		display: none;
+	}

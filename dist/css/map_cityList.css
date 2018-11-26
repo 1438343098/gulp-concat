@@ -1,0 +1,28 @@
+			.BMap_CityListCtrl
+			{
+				color:red;
+			}
+			.sel_city_hotcity a:hover{
+				color:red;
+			}
+			#sel_city_letter_list a:hover{
+				color:red;
+			}
+			#selCitySubmit{
+				color:black;
+			}
+			.sel_city_sf a:hover{
+				color:red;
+			}
+			.city_names_wrap a:hover{
+				color:red;
+			}
+			#hot_city_ids a{
+				text-decoration: none!important;
+			}
+			#sel_city_letter_list a{
+				text-decoration: none!important;
+			}
+			#sel_city_letter_list{
+				margin-left: 35px;
+			}

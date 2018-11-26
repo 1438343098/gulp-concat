@@ -1,0 +1,123 @@
+		.dis
+		{
+			display: block;
+		}
+		.undis
+		{
+			display: none;
+		}
+		.unboder
+		{
+			border: none;
+		}
+		.boder
+		{
+			border-bottom: none;
+			top: 2px;
+			/*z-index: 999;*/
+		}
+		.bigboder
+		{
+			margin-top:0!important ;
+			padding: 9px!important;
+			color: black!important;
+		}
+		.bloodovtxt
+		{
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+		}
+		.ovtxt
+		{
+			white-space: normal;
+		}
+		b
+		{
+			color: red;
+		}
+		.listshow
+		{
+			margin-left: 30px;
+		}
+		.listshows
+		{
+			margin-left: 30px;
+		}
+		.listdata
+		{
+			width: 92%;
+			margin: 50px auto 20px auto;
+			background: white;
+		}
+		/*.envoydata*/
+		/*{*/
+			/*margin: 50px auto 20px auto;*/
+		/*}*/
+		.alarmlistdata
+		{
+			width: 99%;
+			margin: 30px auto 20px auto;
+			background: white;
+		}
+		.listdatas
+		{
+			width: 90%;
+			margin: 30px auto 20px auto;
+			background: white;
+		}
+		.listshow div {
+			float: left;
+			padding: 5px 10px;
+			background: #F8F8F8;
+			margin-right: 10px;
+			margin-top: 10px;
+			cursor: pointer;
+			position: relative;
+			border: 1px solid lightgray;
+			border-bottom: none;
+			color: gray;
+			border-top-left-radius: 5px;
+			border-top-right-radius: 5px;
+			/*border-radius: 5px;*/
+			font-size: 15px;
+			letter-spacing: 1px;
+		}
+		.listshows div
+		{
+			float: left;
+			padding:5px 10px;
+			background: white;
+			margin-right: 10px;
+			min-width: 70px;
+			text-align: center;
+			margin-top:10px;
+			cursor:pointer;
+			position:relative;
+			border: 1px solid rosybrown;
+			border-bottom: none;
+			color: gray;
+			border-top-left-radius: 15px;
+			border-top-right-radius: 15px;
+			font-size: 15px;
+			letter-spacing: 1px;
+		}
+		.changecont
+		{
+			width: 100%;
+			margin: 30px auto 0 auto;
+		}
+		#listcont1,#listcont2,#listcont3,#listcont4,#listcont5,#listcont6,#listcont7,#listcont8,#listcont9
+		{
+			width:100%;
+			border-top: 1px solid lightgray;
+			float: left;
+		}
+		#listconts1,#listconts2,#listconts3,#listcontsp1,#listcontsp2,#listcontsp3,#listcontsp4,#listconter1,#listconter2,#listconter3,#listconter4,#listconter5
+		{
+			border: 1px solid rosybrown;
+			width:100%;
+			border-top: 1px solid rosybrown;
+			float: left;
+			border-radius: 10px;
+		}

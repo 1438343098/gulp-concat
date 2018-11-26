@@ -1,0 +1,63 @@
+.stepcontent
+{
+	border: 1px solid white;
+	border-radius: 5px;
+	width: 90%;
+	margin: 40px auto;
+	background: white;
+	padding: 0 10px;
+	border-top: 2px solid red;
+}
+.stepdata
+{
+	border-bottom: 1px solid lightgray;
+	padding: 20px 10px;
+}
+.stepdata div
+{
+	float: left;
+	width: 11%;
+	padding: 0 10px;
+	font-size: 16px;
+	text-align: center;
+	font-weight: bold;
+	color: rgba(0,0,0,.5);
+}
+.stepdata div:nth-of-type(2)
+{
+	width: 14%;
+}
+.stepcont
+{
+	height:60px;
+	display:table;
+	width: 100%;
+}
+.stepcont ul
+{
+	vertical-align:middle;
+	display:table-cell;
+	cursor:pointer;
+}
+.step_ulodd
+{
+	background: #F8F8F8;
+}
+.step_uleven
+{
+	background: white;
+}
+.stepcont ul li
+{
+	float: left;
+	vertical-align: middle;
+	font-size: 15px;
+	width: 11%;
+	padding: 10px;
+	text-align: center;
+	color: gray;
+}
+.stepcont ul li:nth-of-type(2)
+{
+	width: 14%;
+}

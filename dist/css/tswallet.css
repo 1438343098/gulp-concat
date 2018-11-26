@@ -1,0 +1,25 @@
+.recharge
+{
+	padding: 7px 10px;
+	width: 68px;
+    background: lightseagreen;
+    color: white;
+    border: 1px solid lightseagreen;
+    border-radius: 5px;
+    font-size: 15px;
+    outline: none;
+    cursor: pointer;
+}
+.drawcash
+{
+	padding: 7px 10px;
+    background: white;
+    color: gray;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-size: 15px;
+    outline: none;
+    cursor: pointer;
+    margin-left:15px;
+    width: 68px;
+}

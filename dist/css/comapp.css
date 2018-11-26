@@ -1,0 +1,61 @@
+	.comappcontent
+	{
+		border: 1px solid white;
+		border-radius: 5px;
+		width: 90%;
+		margin: 40px auto;
+		background: white;
+		padding: 0 10px;
+		border-top: 2px solid red;
+	}
+	.comappdata
+	{
+		border-bottom: 1px solid lightgray;
+		padding: 20px 10px;
+	}
+	.comappdata div
+	{
+		float: left;
+		width: 16%;
+		padding: 0 10px;
+		font-size: 16px;
+		text-align: center;
+		font-weight: bold;
+		color: rgba(0,0,0,.5);
+		word-break: break-all;
+	}
+	.comappcont
+	{
+		height:60px;
+		display:table;
+		width: 100%;
+	}
+	.comappcont ul
+	{
+		vertical-align:middle;
+		display:table-cell;
+		cursor:pointer;
+	}
+	.comapp_ulodd
+	{
+		background: #F8F8F8;
+	}
+	.comapp_uleven
+	{
+		background: white;
+	}
+	.comappcont ul li
+	{
+		float: left;
+		vertical-align: middle;
+		font-size: 15px;
+		width: 16%;
+		padding: 10px;
+		text-align: center;
+		color: gray;
+		word-break: break-all;
+	}
+	.comappcont ul li:nth-of-type(5)
+	{
+		letter-spacing: 1px;
+	}

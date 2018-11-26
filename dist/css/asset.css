@@ -1,0 +1,279 @@
+	.assetcontent {
+		border: 1px solid white;
+		border-radius: 20px;
+		width: 90%;
+		margin: 20px auto;
+		background: white;
+		padding: 0 10px;
+		border-top: 1px solid lightgray;
+	}
+	
+	.assetdata {
+		border-bottom: 1px solid lightgray;
+		padding: 20px 10px;
+	}
+	
+	.assetdata div {
+		float: left;
+		width: 26%;
+		padding: 0 10px;
+		font-size: 16px;
+		text-align: center;
+		font-weight: bold;
+		color: rgba(0, 0, 0, .5);
+	}
+	
+	.assetcont {
+		height: 60px;
+		display: table;
+		width: 100%;
+	}
+	
+	.assetcont ul {
+		vertical-align: middle;
+		display: table-cell;
+		cursor: pointer;
+	}
+	
+	.asset_ulodd {
+		background: #F8F8F8;
+	}
+	
+	.asset_uleven {
+		background: white;
+	}
+	
+	.assetcont ul li {
+		float: left;
+		vertical-align: middle;
+		font-size: 15px;
+		width: 26%;
+		padding: 10px;
+		text-align: center;
+		color: gray;
+	}
+	
+	.envoyasset {
+		float: left;
+		padding: 20px 20px;
+		text-align: center;
+		width: 20%;
+		margin-top:5px;
+	}
+	
+	.envoyasset div:nth-of-type(1) {
+		color: #666666;
+	}
+	
+	.envoyasset div:nth-of-type(2) {
+		padding: 10px 0;
+		color: #ffbe3a;
+		font-size: 18px;
+	}
+	
+	.envoyassgray {
+		float: left;
+		border-right: 1px solid lightgray;
+		height: 100px;
+		margin-top: 20px;
+	}
+	
+	.envoysy {
+		float: left;
+		padding: 0px 20px;
+		margin-top: 20px;
+		text-align: center;
+		width: 20%;
+	}
+	
+	.envoysys {
+		float: left;
+		padding: 0px 17px;
+		text-align: center;
+		width: 20%;
+		margin-top: 20px;
+	}
+	
+	.zrasset {
+		color: #666666;
+		margin-top: 20px;
+	}
+	
+	.zrcont {
+		padding: 10px 0;
+		color: #ffbe3a;
+		font-size: 18px;
+	}
+	
+	.zrbase {
+		color: #666666;
+		margin-top: 20px;
+		letter-spacing: 0.3px;
+	}
+	
+	.zrbscont {
+		padding: 10px 0;
+		color: #ffbe3a;
+		font-size: 18px;
+	}
+	
+	.light {
+		width: 100%;
+		border-top: 1px solid lightgray;
+	}
+	
+	#container3 {
+		width: 485px;
+		height: 360px;
+		margin: 150px 0 0 -20px;
+		float: left;
+	}
+	
+	.ym {
+		margin-top: 130px;
+		float: right;
+	}
+	
+	.mar40 {
+		float: left;
+		margin: 100px 0 0 40px;
+	}
+	
+	.mar100 {
+		margin-top: 100px;
+	}
+	
+	.padd5 {
+		padding: 5px 0;
+	}
+	
+	.basdv {
+		width: 20px;
+		float: left;
+		height: 20px;
+		background: lightgoldenrodyellow;
+		margin-right: 5px;
+	}
+	
+	.font14 {
+		float: left;
+		font-size: 14px;
+	}
+	
+	.seraward {
+		float: left;
+		width: 20px;
+		height: 20px;
+		background: pink;
+		margin-right: 5px;
+	}
+	
+	.serecommend {
+		float: left;
+		width: 20px;
+		height: 20px;
+		background: rgb(128, 105, 155);
+		margin-right: 5px;
+	}
+	
+	.serexpand {
+		float: left;
+		width: 20px;
+		height: 20px;
+		background: #76CCF3;
+		margin-right: 5px;
+	}
+	
+	.serothers {
+		float: left;
+		width: 20px;
+		height: 20px;
+		background: rgb(61, 150, 174);
+		margin-right: 5px;
+	}
+	
+	.asscont {
+		display: none;
+	}
+	
+	.padd20 {
+		padding: 20px 0 0 20px;
+	}
+	
+	.assetconts {
+		float: left;
+		color: gray;
+		margin-left: 40px;
+	}
+	
+	.fy {
+		color: #0fa4a1;
+		cursor: pointer;
+		margin-top: 5px;
+	}
+	
+	.frth {
+		float: right;
+	}
+	
+	rect {
+		stroke: none;
+	}
+	
+	/*g:nth-of-type(6) path:first-child {
+		fill: darkseagreen;
+	}
+	
+	g:nth-of-type(7) path:first-child {
+		fill: lightgoldenrodyellow;
+	}
+	
+	g:nth-of-type(8) path:first-child {
+		fill: pink;
+	}
+	
+	g:nth-of-type(9) path:first-child {
+		fill: rgb(128, 105, 155);
+	}
+	
+	g:nth-of-type(10) path:first-child {
+		fill: #76ccf3;
+	}
+	*/
+	.select2-container {
+		margin-left: 5px;
+	}
+	
+	select {
+		cursor: pointer;
+		outline: none;
+	}
+	.asset {
+		padding: 0px 10px;
+		border-radius: 5px;
+		margin-left: 10px;
+		box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.09);
+		border: 1px solid white;
+		background: orangered;
+		color: white;
+		border-color: lightgray;
+		outline: none;
+		cursor: pointer;
+		height: 28px;
+		line-height: 28px;
+	}
+	.fy:hover {
+		color: red!important;
+	}
+	.moneysee {
+		background:orangered;
+		padding: 8px 10px;
+		border-radius: 5px;
+		margin-left: 10px;
+		box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.09);
+		border: 1px;
+		color: white;
+		border-color: white;
+		outline: none;
+		cursor: pointer;
+	}

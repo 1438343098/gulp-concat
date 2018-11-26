@@ -1,0 +1,229 @@
+.govercontent {
+	border: 1px solid white;
+	border-radius: 5px;
+	width: 90%;
+	margin: 40px auto;
+	background: white;
+	padding: 0 10px;
+	border-top: 2px solid red;
+}
+
+.goverheader {
+	padding: 10px;
+	color: #444444;
+}
+
+.govertxtrt {
+	margin: 20px auto 0 auto;
+	width: 100%;
+}
+
+.govertxtrt span {
+	letter-spacing: 1px;
+	padding: 5px;
+	font-size: 16px;
+}
+
+.govertxtrt span input {
+	width: 45px;
+	height: 18px;
+	background: white;
+	border: none;
+	box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.09);
+	outline: none;
+	margin-left: 5px;
+}
+
+.govertxtrt button {
+	background: red;
+	padding: 8px 10px;
+	border-radius: 5px;
+	box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.09);
+	border: 1px;
+	color: white;
+	border-color: white;
+	outline: none;
+	cursor: pointer;
+}
+
+.goverdata {
+	border-bottom: 1px solid lightgray;
+	padding: 20px 10px;
+}
+
+.goverdata div {
+	float: left;
+	width: 8%;
+	padding: 0 10px;
+	font-size: 16px;
+	text-align: center;
+	font-weight: bold;
+	color: rgba(0, 0, 0, .5);
+}
+
+.govercont {
+	height: 40px;
+	display: table;
+	width: 100%;
+}
+
+.govercont ul {
+	vertical-align: middle;
+	display: table-cell;
+	cursor: pointer;
+}
+
+.gover_ulodd {
+	background: #F8F8F8;
+}
+
+.gover_uleven {
+	background: white;
+}
+
+.govercont ul li {
+	float: left;
+	vertical-align: middle;
+	font-size: 13px;
+	width: 8%;
+	padding: 10px;
+	text-align: center;
+	color: gray;
+}
+
+.bigadd {
+	width: 20px;
+	height: 20px;
+}
+
+.govercontent table {
+	border-color: white;
+	margin: 60px auto;
+}
+
+table th {
+	text-align: center;
+}
+
+table tr {
+	color: gray;
+	font-weight: normal;
+	text-align: center;
+	cursor: pointer;
+}
+
+.back,
+.backt {
+	cursor: pointer;
+}
+
+.thchild,
+.jadd,
+.jtadd,
+.jbtn,
+.jtbtn,
+.sh,
+.shcont,
+.eradd,
+.er,
+.ercont,
+.yi,
+.yiadd,
+.yicont
+ {
+	display: none;
+}
+
+.jcont,
+.jconth,
+.three_jcont {
+	display: none;
+}
+
+.jcont ul,
+.jconth ul,
+.three_jcont ul,
+.shcont ul,
+.ercont ul,
+.yicont ul {
+	margin-top: 30px;
+}
+
+.jcont ul li,
+.jconth ul li,
+.three_jcont ul li,
+.shcont ul li,
+.ercont ul li,
+.yicont ul li {
+	margin: 15px;
+	color: gray;
+	letter-spacing: 1px;
+}
+
+.jclose,
+.jhclose,
+.three_jclose {
+	width: 50px;
+	height: 30px;
+	border-radius: 5px;
+	background: #f1f1f1;
+	line-height: 30px;
+	text-align: center;
+	cursor: pointer;
+	float: right;
+	border: 1px solid gray;
+	outline: none;
+}
+
+.three {
+	display: none;
+}
+
+.addorgan,.addorgans {
+	margin: 10px 0 -30px 100px;
+	cursor: pointer;
+}
+.shadd,.eradd,.yiadd
+{
+	margin: 10px 0 -30px 0;
+	cursor: pointer;
+}
+.jadd p,.jtadd p{
+	margin: 0;
+	padding: 0;
+	width: 100px;
+	min-height:30px;
+	outline: none;
+}
+.jadd tr,.jtadd tr {
+	cursor: default;
+}
+.shbtn,.erbtn,.yibtn
+{
+	float: right;
+}
+.shcont input,.ercont input,.yicont input
+{
+	outline: none;
+    width: 400px;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    font-size: 15px;
+    color: gray;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.shcheck,.ercheck,.yicheck
+{
+	margin-left: 10px;
+}
+.shdelete,.shcheck,.jgdelete,.jcheck,.jtdelete,.jtcheck,.erdelete,.ercheck,.yidelete,.yicheck
+{
+	cursor: pointer;
+}
+.jbtn,.jtbtn,.erbtn,.yibtn
+{
+	margin-top: 20px;
+}

@@ -1,0 +1,199 @@
+	.imsbloodata div {
+		float: left;
+		width: 20%;
+		word-break: break-all;
+		padding: 0 10px;
+		font-size: 16px;
+		text-align: center;
+		font-weight: bold;
+		color: rgba(0, 0, 0, .5);
+		word-break: break-word;
+	}
+	
+	.imsbloodata {
+		border-bottom: 1px solid lightgray;
+		padding: 10px;
+	}
+	
+	.imsbloodheader {
+		padding: 10px;
+		color: #444444;
+	}
+	
+	.imsbloodcontent {
+		border: 1px solid white;
+		border-radius: 5px;
+		width: 90%;
+		margin: 40px auto;
+		background: white;
+		padding: 0 10px;
+		border-top: 2px solid red;
+	}
+	.imsbloodnum {
+		height: 60px;
+		display: table;
+		width: 100%;
+	}
+	.imsblood_ulodd,
+	.imsblood_uleven {
+		padding: 0;
+		list-style: none;
+	}
+	.imsblood_ulodd {
+		vertical-align: middle;
+		display: table-cell;
+		background: #F8F8F8;
+	}
+	.imsblood_uleven {
+		vertical-align: middle;
+		display: table-cell;
+		background: white;
+	}
+	.imsblood_ulodd li,
+	.imsblood_uleven li {
+		float: left;
+		vertical-align: middle;
+		font-size: 14px;
+		width: 20%;
+		padding: 10px;
+		text-align: center;
+		color: gray;
+		cursor: pointer;
+		word-break: break-all;
+	}
+	.imsbloodheads {
+		color: #333333;
+		font-size: 18px;
+		margin-top: 10px;
+	}
+	.imsbloodheads span {
+		padding: 5px;
+		font-size: 16px;
+		letter-spacing: 1px;
+	}
+	.imsbloodheads span:nth-of-type(2)
+	{
+		margin-top: 5px;
+	}
+	.imsbloodheads input {
+		outline: none;
+		width: 65px;
+		height: 30px;
+		line-height:30px;
+		background: white;
+		border: none;
+		font-size: 16px;
+		box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.09);
+	}
+	.imsbloodheads button {
+		background: red;
+		padding: 8px 10px;
+		border-radius: 5px;
+		margin-left: 30px;
+		box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.09);
+		border: 1px;
+		color: white;
+		border-color: white;
+		outline: none;
+		cursor: pointer;
+	}
+	.imsbloodheads button:last-child
+	{
+		margin-top: 5px;
+	}
+	.imebldbtn {
+		width: 90%;
+		margin: 30px auto 0 auto;
+		text-align: center;
+	}
+	.imebldbtn button {
+		background: #F8F8F8;
+		padding: 8px 10px;
+		border-radius: 50%;
+		margin-left: 10px;
+		box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.09);
+		border: 1px solid gray;
+		color:black;
+		outline: none;
+		cursor: pointer;
+		width: 80px;
+		height: 50px;
+		font-size: 14px;
+    	font-family: 微软雅黑;
+	}
+	.imebldbtn button:hover
+	{
+		color: red;
+	}
+	.highcharts-background {
+		fill: white;
+	}
+	#container {
+		position: relative;
+		width: 400px;
+		height: 400px;
+		margin-top: 100px;
+	}
+	#containerd {
+		position: relative;
+		width: 400px;
+		height: 400px;
+		margin-top: 100px;
+	}
+	.blday {
+		display: none;
+	}
+	.days {
+		position: absolute;
+		top: 3px;
+		right: 5px;
+		border-radius: 5px;
+		border: 1px solid gray;
+		width: 40px;
+		height: 25px;
+		line-height: 25px;
+		text-align: center;
+		outline: none;
+		cursor: pointer;
+		background: azure;
+	}
+	.month {
+		position: absolute;
+		top: 3px;
+		right: 5px;
+		border-radius: 5px;
+		border: 1px solid gray;
+		width: 40px;
+		height: 25px;
+		line-height: 25px;
+		text-align: center;
+		outline: none;
+		cursor: pointer;
+		background: azure;
+	}
+	.imeblfind,
+	.imybtn {
+		background: red;
+		padding: 8px 10px;
+		border-radius: 5px;
+		margin-left: 10px;
+		box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.09);
+		border: 1px;
+		color: white;
+		border-color: white;
+		outline: none;
+		cursor: pointer;
+	}
+	.imymdf {
+		width: 90%;
+		margin: 30px auto 0 auto;
+		text-align: center;
+	}
+	tspan
+	{
+		font-size: 15px;
+	}
+	/*rect
+	{
+		height: 600px;
+	}*/

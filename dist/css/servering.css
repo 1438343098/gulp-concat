@@ -1,0 +1,76 @@
+	.seringcontent
+	{
+		border: 1px solid white;
+		border-radius: 5px;
+		width: 90%;
+		margin: 40px auto;
+		background: white;
+		padding: 0 10px;
+		border-top: 2px solid red;
+	}
+	.seringdata
+	{
+		border-bottom: 1px solid lightgray;
+		padding: 20px 10px;
+	}
+	.seringdata div
+	{
+		float: left;
+		width: 14%;
+		padding: 0 10px;
+		font-size: 16px;
+		text-align: center;
+		font-weight: bold;
+		color: rgba(0,0,0,.5);
+		word-break: break-all;
+	}
+	.seringcont
+	{
+		height:60px;
+		display:table;
+		width: 100%;
+	}
+	.waitsercont ul
+	{
+		vertical-align:middle;
+		display:table-cell;
+		cursor:pointer;
+	}
+	.sering_ulodd
+	{
+		background: #F8F8F8;
+	}
+	.sering_uleven
+	{
+		background: white;
+	}
+	.seringcont ul li
+	{
+		float: left;
+		vertical-align: middle;
+		font-size: 15px;
+		width: 14%;
+		padding:20px 10px;
+		text-align: center;
+		color: gray;
+		word-break: break-all;
+	}
+	.seringcont ul li:nth-of-type(2),.seringcont ul li:nth-of-type(4)		
+	{
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		letter-spacing: 1px;
+	}
+	.seringcont ul li:nth-of-type(5)
+	{
+		letter-spacing: 1px;	
+	}
+   .seringcont ul li:nth-of-type(3)	
+   {
+   	width: 18%;
+   }
+	.seringcont ul li:nth-of-type(5)	
+	{
+		width: 8%;
+	}

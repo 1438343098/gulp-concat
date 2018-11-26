@@ -1,0 +1,419 @@
+body {
+	margin: 0;
+	background: #F5F5F5;
+	padding: 0;
+	overflow: hidden;
+	overflow-x: auto;
+	font-family: "微软雅黑";
+}
+.over
+{
+	overflow: hidden;
+}
+.header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 50px;
+	background: white;
+}
+/*.rel
+{
+	color: blue;
+}*/
+.enterclose
+{
+    background: rgba(244, 67, 54, 0.11);
+    width: 30px;
+    height: 30px;
+    color: gray;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 2px;
+    margin-left: 350px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.logo {
+	float: left;
+	line-height: 50px;
+	width: 200px;
+	background: #0a8986;
+}
+
+.clear:after {
+	height: 0;
+	display: block;
+	content: '';
+	clear: both;
+}
+
+.marz {
+	margin-left: 0!important;
+	width: 100%!important;
+}
+
+.undis {
+	display: none;
+}
+
+a {
+	color: #777777;
+	text-decoration: none;
+}
+
+.header div:nth-of-type(1) img {
+	width: 35px;
+	/*height:30px;*/
+	vertical-align: middle;
+	border: none;
+	border-radius: 50%;
+	vertical-align: middle;
+}
+.logo img
+{
+	width: 30px!important;
+}
+.user img
+{
+	height: 35px!important;
+}
+.logo span {
+	color: white;
+	font-size: 15px;
+}
+
+.divr {
+	float: left;
+}
+
+.side {
+	float: left;
+	background: url('../image/gang.png') center no-repeat;
+	width: 50px;
+	height: 50px;
+	border-right: 1px solid rgba(211, 211, 211, 0.4);
+}
+.entering
+{
+	float: left;
+	background: url('../image/录入2.png') center no-repeat;
+	width: 50px;
+	height: 50px;
+}
+
+.imesch {
+	height: 50px;
+	line-height: 50px;
+	float: left;
+}
+
+#img_s {
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	margin: 17px 15px 0 15px;
+	float: right;
+	cursor: pointer;
+}
+
+.DSearch {
+	position: relative;
+	float: left;
+}
+
+#searched {
+	width: 450px;
+	color: gray;
+	height: 40px;
+	line-height: 40px;
+	font-size: 18px;
+	padding: 0 12px;
+	margin: 5px 0 0 10px;
+	letter-spacing: 1px;
+	border: 1px solid #f1ecec;
+}
+
+.ie9_close {
+	position: relative;
+	right: 50px;
+	height: 50px;
+	width: 35px;
+	float: left;
+	background: white;
+	overflow: hidden;
+	display: none;
+}
+
+.ie9_close img {
+	width: 27px;
+	height: 27px;
+	vertical-align: middle;
+}
+
+@media only screen and (min-height:900px) {
+	#map {
+		height: 640px;
+	}
+	.listdata {
+		margin: 80px auto 20px auto;
+	}
+	.nopermcontent {
+		margin: 80px auto!important;
+		width: 640px!important;
+	}
+	.appcontent,
+	.envoycontent,
+	.imeiscontent,
+	.sermancontent,
+	.appdetailcontent {
+		margin: 80px auto;
+	}
+	.admincontent {
+		margin: 80px 10px;
+	}
+}
+@media only screen and (min-width:1200px) {
+	.width
+	{
+		width: 100%!important;
+	}
+}
+@media only screen and (min-width: 780px) and (max-width:1200px) {
+	body {
+		width: 1200px!important;
+	}
+	.header {
+		width: 1200px!important;
+	}
+	.divr {
+		width: 1000px!important;
+	}
+	.sideright {
+		width: 1000px!important;
+	}
+	.width
+	{
+		width: 1200px!important;
+	}
+}
+
+@media only screen and (max-width: 779px) {
+	body {
+		width: 1200px!important;
+	}
+	.header {
+		width: 1200px;
+	}
+	.divr {
+		width: 1000px!important;
+	}
+	.sideright {
+		width: 1000px!important;
+	}
+}
+
+#labelId3 {
+	color: #777777;
+	height: 40px;
+	line-height: 40px;
+	font-size: 18px;
+	position: absolute;
+	padding: 0 12px;
+	left: 10px;
+	top: 5px;
+	letter-spacing: 1px;
+}
+
+::-ms-clear,
+::-ms-reveal {
+	display: none;
+}
+
+.AccountClose {
+	display: none;
+	margin: -5px 0 0 -30px;
+}
+
+.person {
+	float: right;
+}
+
+.user {
+	background: white!important;
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	cursor: pointer;
+}
+
+.user img:nth-of-type(1) {
+	width: 30px;
+	height: 30px!important;
+	border-radius: 50%;
+	margin-left: 30px!important;
+}
+
+.user span:nth-of-type(1) {
+	color: gray;
+	font-size: 15px;
+	margin: 0 5px 0 5px;
+}
+
+.user img:nth-of-type(2) {
+	width: 12px!important;
+	height: 10px!important;
+	margin: 0!important;
+}
+
+.user+div {
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-right: 30px;
+	cursor: pointer;
+}
+
+.user+div>p {
+	float: left;
+	width: 0px;
+	height: 34px;
+	border-left: 1px solid lightgray;
+	margin: 10px 0 0 10px!important;
+}
+
+.user+div>div {
+	background: url(../image/close.png) no-repeat center;
+	float: right;
+	width: 20px;
+	height: 50px;
+}
+
+.popup {
+	display: none;
+    width: 300px;
+    height: 65px;
+    position: absolute;
+    top: 50px;
+    z-index: 999;
+    right: 60px;
+    border-color: lightgray;
+}
+
+.triangle {
+	margin: 0;
+	position: absolute;
+	top: 0;
+	right: 15px;
+	border-left: 10px solid #f5f5f5;
+    border-right: 10px solid #f5f5f5;
+    border-bottom: 10px solid lightgray;
+	width: 0;
+	height: 0;
+}
+.triangles {
+	margin: 0;
+    position: absolute;
+    top: -10px;
+    left: 80px;
+    border-left: 10px solid #f5f5f5;
+    border-right: 10px solid #f5f5f5;
+    border-bottom: 10px solid pink;
+    width: 0;
+    height: 0;
+}
+.entercont
+{
+	position: absolute;
+    top: 60px;
+    left: 800px;
+    z-index:1000;
+    display: none;
+}
+.entercont ul
+{
+	list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    border: 1px solid pink;
+    position: absolute;
+    border-radius: 5px;
+    padding: 10px;
+    background: white;
+}
+.entercont ul li
+{
+	float: left;
+    width: 100px;
+    height: 20px;
+    padding: 10px;
+    background: rgba(244, 67, 54, 0.11);
+    margin: 5px;
+    text-align: center;
+}
+.dentering
+{
+	float: left;
+	margin-left: 40px;
+}
+.dentering span
+{
+	color: gray;
+	height: 50px;
+	line-height: 50px;
+}
+
+.entercont ul li a
+{
+	color: #777777;
+}
+.henter
+{
+	float: left;
+	cursor: pointer;
+}
+.popup div {
+	background: white;
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+	border: 1px solid lightgray;
+	position: absolute;
+	top: 10px;
+	right: 0;
+}
+
+.popup>div>a:nth-of-type(1)>p {
+	border: 1px solid lightgray;
+	width: 80px;
+	line-height: 40px;
+	height: 40px;
+	margin: 11px 0px 0 10px;
+	float: left;
+	text-align: center;
+	color: rgb(169, 160, 160);
+	border-radius: 10px;
+	font-size: 14px;
+}
+
+.popup>div>a:nth-of-type(2)>p {
+	border: 1px solid lightgray;
+	width: 80px;
+	line-height: 40px;
+	height: 40px;
+	margin: 11px 10px 0 0px;
+	float: right;
+	text-align: center;
+	color: rgb(169, 160, 160);
+	border-radius: 10px;
+	font-size: 14px;
+}
+.mClose
+{
+	width: 25px!important;
+	height: 25px!important;
+}

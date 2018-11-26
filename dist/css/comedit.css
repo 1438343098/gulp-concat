@@ -1,0 +1,88 @@
+.edit img
+{
+	vertical-align: middle;
+}
+.edit span
+{
+	padding: 10px;
+	color: rgba(255, 212, 0, 0.86);
+}
+.editconent
+{
+	position: relative;
+	display: none;
+}
+.editcontlf
+{
+	position: absolute;
+	width: 400px;
+	border: 1px solid antiquewhite;
+	top: -25px;
+	left: -410px;
+	background: white;
+	border-radius: 5px;
+	padding: 20px;
+}
+.padl10
+{
+	text-align: left;
+	padding: 10px;
+}
+.padr5
+{
+	color: red;
+	padding: 5px;
+}
+.pad10
+{
+	padding: 10px;
+}
+.editext
+{
+	width:100%;
+	height:110px;
+	padding:10px;
+	outline: none;
+}
+.martop30
+{
+	text-align: center;
+	margin-top: 30px;
+}
+.martop30 button
+{
+	padding: 7px 20px;
+	background:lightseagreen;
+	color: white;
+	border: 1px solid lightseagreen;
+	border-radius: 5px;
+	outline: none;
+	cursor: pointer;
+}
+.comcancel
+{
+	margin-left: 30px;
+}
+.comtriangle
+{
+	border-top: 8px solid #F8F8F8;
+	border-bottom: 8px solid #F8F8F8;
+	border-left: 15px solid white;
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	top: -15px;
+	left: 30px;
+}
+.comtriangles
+{
+	border-top: 8px solid white;
+	border-bottom: 8px solid white;
+	border-left: 15px solid antiquewhite;
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	top: -15px;
+	left: 30px;
+	opacity: .5;
+}

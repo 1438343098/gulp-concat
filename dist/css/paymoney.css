@@ -1,0 +1,90 @@
+.paymoneycontent {
+	border: 1px solid white;
+	border-radius: 5px;
+	width: 90%;
+	margin: 40px auto;
+	background: white;
+	padding: 30px 10px 0 10px;
+	border-top: 2px solid red;
+}
+
+.paymoneydata {
+	border-bottom: 1px solid lightgray;
+	padding: 20px 10px;
+}
+
+.paymoneydata div {
+	float: left;
+	width: 40%;
+	padding: 0 10px;
+	font-size: 16px;
+	text-align: center;
+	font-weight: bold;
+	color: rgba(0, 0, 0, .5);
+}
+
+.paymoneycont {
+	height: 40px;
+	display: table;
+	width: 100%;
+}
+.paymoneyheader
+{
+	padding:10px;
+	color: #444444;
+}
+.paymoneytxtrt
+{
+	margin-top: 6px;
+}
+.paymoneytxtrt span
+{
+	letter-spacing: 1px;
+	padding: 5px;
+	font-size: 16px;
+}
+.paymoneytxtrt span input
+{
+	width: 45px;
+	height: 18px;
+	background: white;
+	border: none;
+	box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.09);
+	outline: none;
+	margin-left: 5px;
+}
+.paymoneytxtrt button
+{
+	background: red;
+	padding: 8px 10px;
+	border-radius: 5px;
+	box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.09);
+	border: 1px;
+	color: white;
+	border-color: white;
+	outline: none;
+	cursor: pointer;
+}
+
+table {
+	border-color: white;
+}
+
+table tr {
+	color: gray;
+	font-weight: normal;
+	text-align: center;
+}
+
+#td tr th {
+	cursor: pointer;
+}
+#tba1,#tba2
+{
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.allpbtn
+{
+	margin-left: 40px;
+}

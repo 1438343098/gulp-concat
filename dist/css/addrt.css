@@ -1,0 +1,151 @@
+.addrt
+{
+	float: left;
+	border-top: 2px solid red;
+	border-radius: 5px;
+	background: white;
+	width: 44%;
+	display: none;
+}
+.addtext
+{
+	margin-top: -10px;
+	font-size: 18px;
+}
+.pad10
+{
+	margin-top: 10px;
+	padding: 10px 10px 0 10px;
+}
+.save
+{
+	background: red;
+	padding: 8px 10px;
+	border-radius: 5px;
+	margin-left: 10px;
+	box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.09);
+	border: 1px;
+	color: white;
+	border-color: white;
+	outline: none;
+	cursor: pointer;
+	width: 72px;
+}
+.cancel
+{
+	background: red;
+	padding: 8px 10px;
+	border-radius: 5px;
+	margin-left: 20px;
+	box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.09);
+	border: 1px;
+	color: white;
+	border-color: white;
+	outline: none;
+	cursor: pointer;
+	width: 72px;
+}
+.martop20
+{
+	margin-top: 20px;
+}
+.addcont
+{
+	padding: 30px;
+}
+.admindv
+{
+	position:relative;
+	margin-top:10px;
+	margin-bottom:5px;
+	height: 35px;
+	line-height:35px;
+	color: #949394;
+}
+.martop10
+{
+	margin-top: 10px;
+}
+#admin,#mima
+{
+	width:100%;	  	
+	outline: none;
+	padding: 0 3px;
+	height: 35px;
+	line-height: 35px;
+	border: 1px solid #999;
+	color: #555555;
+	font-size: 15px;
+}
+.mimadv
+{
+	height: 35px;
+	line-height:35px;
+	margin: 10px 0 10px 0;
+	position: relative;
+	font-family: "微软雅黑";
+}
+.select,.change_select
+{
+	width:100%;
+	height: 35px;
+	line-height: 35px;
+	font-size: 15px;
+	border: 1px solid gray;
+	color: #666666;
+	outline: none;
+	padding: 0 3px;
+	/*-webkit-appearance: none;
+    -moz-appearance: none;
+	appearance:none;*/
+}
+
+.addv
+{
+	margin: 10px 0 10px 0;
+	position: relative;
+	font-family: "宋体";
+}
+#labelId5
+{
+	color:#949394;
+	height: 15px;
+	line-height: 15px;
+	font-size: 13px;
+	position: absolute;
+	left: 3px;
+	top: 10px;
+	letter-spacing: 1.5px;
+}
+#labelId6
+{
+	color:#949394;
+	height: 15px;
+	line-height: 15px;
+	font-size: 13px;
+	position: absolute;
+	left: 3px;
+	top: 10px;
+	letter-spacing: 1.5px;
+}
+#labelId7
+{
+	color:#949394;
+	height: 50px;
+	font-size: 14px;
+	position: absolute;
+	left: 3px;
+	top: 2px;
+	letter-spacing: 1.5px;
+	outline: none;
+}
+#addinput
+{
+	border: 1px solid gray;
+	outline: none;
+	padding: 0 3px;
+	color: #555555;
+	width: 100%;
+	height:300px;
+	font-size: 15px;
+}

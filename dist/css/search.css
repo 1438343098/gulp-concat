@@ -1,0 +1,53 @@
+	.searchcontent {
+		border: 1px solid white;
+		border-radius: 5px;
+		width: 90%;
+		margin: 20px auto;
+		background: white;
+		padding: 0 10px;
+		border-top: 2px solid red;
+	}
+	
+	.srcontent {
+		background: white;
+		height: 50px;
+		font-size: 20px;
+		width: 95%;
+		line-height: 50px;
+		margin: 0 auto;
+		color: #777777;
+	}
+	
+	.srcontent span:first-child {
+		padding: 0 20px;
+	}
+	
+	.searchcont {
+		height: 60px;
+		display: table;
+		width: 100%;
+	}
+	
+	.searchcont ul {
+		vertical-align: middle;
+		display: table-cell;
+		cursor: pointer;
+	}
+	
+	.search_ulodd {
+		background: #F8F8F8;
+	}
+	
+	.search_uleven {
+		background: white;
+	}
+	
+	.searchcont ul li {
+		float: left;
+		vertical-align: middle;
+		font-size: 15px;
+		width: 40%;
+		padding: 10px;
+		text-align: center;
+		color: gray;
+	}

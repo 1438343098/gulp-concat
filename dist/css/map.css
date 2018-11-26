@@ -1,0 +1,63 @@
+.map-po {
+	width: 90%;
+	height: 50px;
+	margin: 10px auto;
+}
+
+.flt {
+	float: left;
+}
+
+.mapInpt+div {
+	background: url(../image/ysearch.png) no-repeat center;
+	float: left;
+	width: 25px;
+	height: 25px;
+	margin: 12.5px 0 0 30px;
+	cursor: pointer;
+}
+
+.point {
+	float: right;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 5px;
+	border: 1px solid gray;
+	padding: 0 10px;
+	border-radius: 20px;
+	background: white;
+}
+
+.point span {
+	font-size: 18px;
+	color: gray;
+	letter-spacing: 1px;
+}
+
+.point b {
+	color: red;
+}
+
+.black {
+	float: right;
+	height: 50px;
+	width: 255px;
+	line-height: 50px;
+}
+
+.black span {
+	margin-left: 10px;
+	float: left;
+	font-size: 16px;
+}
+
+.black b {
+	color: red;
+}
+
+#map {
+	border: 10px solid white;
+	border-radius: 10px;
+	margin: 0px auto 0 auto;
+	width: 95%;
+}

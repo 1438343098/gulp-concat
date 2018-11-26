@@ -1,0 +1,124 @@
+﻿.pager {
+	width: 950px;
+	height: 30px;
+	padding: 0;
+	margin: 0;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+.pager div.short {
+	float: right;
+	padding: 0;
+}
+
+.pager div.short input:first-child {
+	width: 60px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border: 1px solid gray;
+	border-radius: 5px;
+	margin-left: 8px;
+	color: red;
+	float: left;
+	outline: none;
+}
+
+.pager div.short input:last-child {
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	color: white;
+	border: 1px solid gray;
+	background: red;
+	border-radius: 15px;
+	margin-left: 15px;
+	outline: none;
+	float: left;
+	text-align: center;
+}
+
+.pager ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	float: left;
+	/*width: 430px;*/
+	/*margin-right: 4px;*/
+}
+
+.pager ul li {
+	display: inline;
+	margin-left: 10px;
+}
+/*
+.pager ul li:first-child {
+	margin-left: 40px;
+}*/
+
+.pager ul li a {
+	text-decoration: none;
+	display: inline-table;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: right;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+}
+
+.pager span {
+	margin-left: 4px;
+	color: White;
+	float: left;
+}
+
+.pager .btn {
+	display: block;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 13px;
+	float: left;
+	padding: 0;
+	margin: 0;
+	margin-left: 10px;
+	cursor: pointer;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+/*.pager .btn:nth-of-type(2)
+{
+	margin-right: 30px;
+}*/
+.pager .disabled {
+	color: #A0A0A0 !important;
+	text-shadow: 1px 1px 1px #FFFFFF;
+}
+
+.red.normal {
+	background-color: white;
+	color: gray;
+	text-underline: inherit;
+}
+
+.red.active {
+	background-color: white;
+	color: red;
+	text-decoration: underline;
+}
+
+.pager.red .btn {
+	background-color: white;
+	color: gray;
+}

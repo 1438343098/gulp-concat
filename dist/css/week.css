@@ -1,0 +1,135 @@
+.whealth {
+	width: 100%;
+	color: white;
+	font-weight: bold;
+	letter-spacing: 1px;
+	margin-top: 20px;
+}
+
+.health_week {
+	height: 30px;
+	background: #1f7b92;
+	padding: 4px;
+	font-size: 18px;
+}
+
+.hcount,
+.hblood {
+	height: 30px;
+	line-height: 30px;
+	padding: 0 4px;
+	margin-bottom: 15px;
+	background: #ededed;
+}
+
+.flt {
+	float: left;
+}
+
+.frt {
+	float: right;
+}
+
+.health_date {
+	text-align: center;
+	height: 30px;
+	vertical-align: top;
+	background: #1f7b92;
+	font-size: 15px;
+}
+
+.h_person {
+	text-align: center;
+	height: 35px;
+	line-height: 35px;
+	background: #74bac6;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.clear:after {
+	content: '';
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+.horange,
+.docaggest {
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+.hwhite {
+	height: 35px;
+	line-height: 35px;
+	padding: 0 4px;
+	margin-bottom: 10px;
+	background: #ff4801;
+	color: white;
+}
+
+.dheart {
+	height: 35px;
+	line-height: 35px;
+	padding: 0 4px;
+	color: white;
+}
+
+.hgray {
+	height: 35px;
+	line-height: 35px;
+	padding: 0 4px;
+	margin-bottom: 10px;
+	background: #ededed;
+}
+
+.hborder {
+	border: 1px solid red;
+	width: 100%;
+}
+
+#size,
+#walk,
+#sleep {
+	width: 90%;
+	margin: 20px auto
+}
+
+#container,
+#BP {
+	width: 90%;
+	margin: 0 auto
+}
+
+.marfive {
+	margin: 5px 0;
+}
+
+.marten,.martww {
+	margin: 20px 0
+}
+
+.martwy {
+	margin: 20px 0 0 0
+}
+
+.htxt,
+.lvalarm,
+.blsalarm,
+.sleepalarm,
+.posalarm {
+	background: #ededed;
+	width: 100%;
+	height: 190px;
+	margin-top: 15px;
+	padding: 4px;
+}
+
+canvas {
+	width: 100%;
+}
+/*.highcharts-series-group g:nth-of-type(1) path
+{
+	fill: none;
+}*/

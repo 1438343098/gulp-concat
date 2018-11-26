@@ -1,0 +1,87 @@
+.thingcontcontent,.thingaddcontent,.thingincontent,.thingoutcontent,.thingbackcontent,.thingrestcontent
+{
+	border: 1px solid white;
+	border-radius: 5px;
+	width: 90%;
+	margin: 40px auto;
+	background: white;
+	padding: 0 10px;
+	border-top: 2px solid red;
+}
+.thingcontcontent  ul 
+{
+	height: auto;
+}
+.thingcontcontent  ul li
+{
+	float: left;
+	border: 1px solid gray;
+	border-right: none;
+	border-top: none;
+	width: 10%;
+	min-height: 50px;
+	word-break: break-all;
+	outline: none;
+	/*height: auto;*/
+}
+.thingcontcontent  ul li:last-child
+{
+	border-right: 1px solid gray;
+}
+.thingcontcontent  ul:first-child li
+{
+	border-top: 1px solid gray;
+}
+.thingcontcontent table,.thingaddcontent table,.thingincontent table,.thingoutcontent table,.thingbackcontent table,.thingrestcontent table
+{
+	margin: 5% auto;
+	color: gray;
+}
+.thingcontcontent table tr td,.thingaddcontent table tr td,.thingincontent table tr td,.thingoutcontent table tr td,.thingbackcontent table tr td,.thingrestcontent table tr td
+{
+	outline: none;
+}
+.thingcontcontent table p,.thingaddcontent table p,.thingincontent table p,.thingoutcontent table p,.thingbackcontent table p,.thingrestcontent table p
+{
+	margin: 0;
+	width: 100%;
+	outline: none;
+	word-break: break-all;
+	letter-spacing: 1px;
+}
+.thingcancel,.thingaddcancel,.thingincancel,.thingoutcancel,.thingbackcancel,.thingrestcancel{
+	top: 370px;
+	right: 30px;
+	position: fixed;
+	border: 1px solid #0fa4a1;
+	width: 30px;
+	height: 30px;
+	padding: 15px;
+	border-radius: 50%;
+	background: #0fa4a1;
+	cursor: pointer;
+}
+.thingjia,.thingaddjia,.thinginjia,.thingoutjia,.thingbackjia,.thingrestjia{
+	top: 270px;
+	right: 30px;
+	position: fixed;
+	border: 1px solid #0fa4a1;
+	width: 30px;
+	height: 30px;
+	padding: 15px;
+	border-radius: 50%;
+	background: #0fa4a1;
+	cursor: pointer;
+}
+.thingconfirm,.thingaddconfirm,.thinginconfirm,.thingoutconfirm,.thingbackconfirm,.thingrestconfirm{
+	top: 470px;
+	right: 30px;
+	position: fixed;
+	border: 1px solid #0fa4a1;
+	width: 30px;
+	height: 30px;
+	padding: 15px;
+	border-radius: 50%;
+	background: #0fa4a1;
+	cursor: pointer;
+}

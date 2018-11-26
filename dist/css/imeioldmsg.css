@@ -1,0 +1,177 @@
+.basicmsg {
+	border-top: 2px solid red;
+	border-radius: 5px;
+	padding: 20px 20px 10px 20px;
+	color: #333;
+	font-size: 18px;
+}
+
+.bone {
+	border: none;
+}
+
+.btom {
+	border-bottom: 1px solid gray;
+	padding-bottom: 15px;
+}
+
+.sedu {
+	font-size: 16px;
+	padding: 20px 10px;
+	margin-left: 20px;
+}
+
+.btoms {
+	color: #333333;
+}
+
+.agelse {
+	font-size: 16px;
+	padding: 20px 10px;
+	margin-left: 20px;
+}
+
+.hobs {
+	padding: 20px 0;
+}
+
+.marfive {
+	margin-left: 5px;
+}
+
+.hob {
+	width: 300px;
+	min-height: 80px;
+	border-radius: 5px;
+	vertical-align: middle;
+	outline: none;
+	border: 1px solid gray;
+	letter-spacing: 1px;
+	margin-right: 50px;
+	font-size: 15px;
+	color: black;
+	background: aliceblue;
+	padding: 10px;
+}
+
+.haddress,
+.haddetail {
+	font-size: 16px;
+	padding: 20px 10px;
+	margin-left: 20px;
+	height: 35px;
+	line-height: 35px;
+}
+
+.servemsg,
+.basmsg {
+	border-radius: 5px;
+	padding: 10px 20px;
+	color: #333;
+	font-size: 18px;
+}
+
+.server {
+	font-size: 16px;
+	padding: 20px 10px;
+	margin-left: 20px;
+}
+
+.basname {
+	font-size: 16px;
+	padding: 20px 10px;
+	margin-left: 20px;
+}
+
+.shu,
+.pman,
+.homepne,
+.helpman,
+.tshi,
+.tzhi,
+.share,
+.type,
+.payway,
+.basemsg,
+.slowb,
+.shib,
+.distype {
+	font-size: 16px;
+	padding: 20px 10px;
+	margin-left: 20px;
+}
+
+.share {
+	margin-top: 10px;
+}
+
+.squ span,
+.gutshi span,
+.guzhi span {
+	margin-left: 30px;
+}
+
+.helpadd,
+.guadd,
+.gzadd {
+	vertical-align: middle;
+	margin-left: 15px;
+	cursor: pointer;
+}
+
+.guadd {
+	margin-left: 30px;
+}
+
+.guman,
+.gzman {
+	margin-bottom: 20px;
+}
+
+.marnine {
+	margin-left: 90px;
+}
+
+.bfive {
+	margin: 10px 0 10px 0;
+}
+
+.bten {
+	margin-bottom: 10px;
+}
+
+.backgray {
+	background: #e6e4e4;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.marth {
+	margin-left: 30px;
+}
+
+.marf {
+	margin-left: 45px;
+}
+.shu div
+{
+	float: left;
+}
+.shucont
+{
+	margin-top: -10px;
+	max-width: 100px;
+	word-break: break-all;
+	white-space: pre-wrap;
+}
+.marten
+{
+	margin-top: -10px;
+}
+.hobcont {
+	float: left;
+	max-width: 450px;
+	word-break: break-all;
+	white-space: pre-wrap;
+	margin-top: -10px;
+}

@@ -1,0 +1,76 @@
+.numberpage
+	{
+		color: gray;
+		width: 30px;
+		height: 30px;
+		display: inline-block;
+		line-height: 30px;
+		text-decoration: none;
+		font-size: 15px;
+	}
+	.pages span
+	{
+		color:gray;
+		padding: 0 5px;
+		letter-spacing: 2px;
+		margin-left: 30px;
+	}
+	.pages span input
+	{
+		color: red;
+		width: 70px;
+		outline: none;
+		margin: 0 5px;
+	}
+	.numberpage:hover,.leftpage:hover,.rightpage:hover
+	{
+		color: green;
+		text-decoration: underline;
+	}
+	.pagedr
+	{
+		text-align: center;
+		/*font-size: 13px;*/
+		padding: 20px;
+	}
+	.firstpage
+	{
+		margin-left: -30px;
+		margin-right: 5px;
+		width: 30px;
+		height: 30px;
+		font-size: 15px;
+		display: inline-block;
+		line-height: 30px;
+		text-decoration: none;
+		color: gray;
+	}
+	.lastpage
+	{
+		color: gray;
+		width: 30px;
+		height: 30px;
+		display: inline-block;
+		line-height: 30px;
+		font-size: 15px;
+		text-decoration: none;
+		margin-left: 5px;
+	}
+	.firstpage:hover,.lastpage:hover
+	{
+		text-decoration: none!important;
+		color: red;
+	}
+	.leftpage,.rightpage
+	{
+		color: gray;
+		text-decoration: none;
+		font-size: 15px;
+	}
+	.toPage
+	{
+		background: red;
+		color: white;
+		border-radius: 15px;
+		outline: none;
+	}

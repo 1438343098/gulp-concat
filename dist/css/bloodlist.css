@@ -1,0 +1,211 @@
+	.blooddata div
+	{
+		float: left;
+		width: 20%;
+		/*margin-right: 10px;*/
+		padding: 0 10px;
+		font-size: 16px;
+		text-align: center;
+		font-weight: bold;
+		color: rgba(0,0,0,.5);
+	}
+	.blooddata
+	{
+		border-bottom: 1px solid lightgray;
+		padding:10px;
+	}
+	.bloodheader
+	{
+		padding: 10px;
+		color: #444444;
+	}
+	
+	.blcontent
+	{
+		border: 1px solid white;
+		border-radius: 5px;
+		width: 90%;
+		margin: 40px auto;
+		background: white;
+		padding: 0 10px;
+		border-top: 2px solid red;
+	}
+	.bloodtext
+	{
+		float: left;
+		margin-top: 10px;
+		font-size: 18px;
+	}
+	.bltxtrt
+	{
+		margin-top: 6px;
+	}
+	.bltxtrt span
+	{
+		padding: 5px;
+		font-size: 17px;
+		letter-spacing: 1px;
+	}
+	.bltxtrt input
+	{
+		outline: none;
+		width: 45px;
+		height: 18px;
+		background: white;
+		border: none;
+		box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.09);
+	}
+	.bltxtrt button
+	{
+		background: red;
+		padding: 8px 10px;
+		border-radius: 5px;
+		margin-left: 10px;
+		box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.09);
+		border: 1px;
+		color: white;
+		border-color: white;
+		outline: none;
+		cursor: pointer;
+	}
+	.bloodnum
+	{
+		height:60px;
+		display:table;
+		width: 100%;
+	}
+	.bloodlist_ulodd,.bloodlist_uleven
+	{
+		padding: 0;
+		list-style: none;
+	}
+	
+	.bloodlist_ulodd
+	{
+		vertical-align:middle;
+		display:table-cell;
+		background: #F8F8F8;
+	}
+	.bloodlist_uleven
+	{
+		vertical-align:middle;
+		display:table-cell;
+		background: white;
+	}
+	
+	.bloodlist_ulodd li,.bloodlist_uleven li
+	{
+		float: left;
+		vertical-align: middle;
+		font-size: 15px;
+		width: 20%;
+		padding: 10px;
+		text-align: center;
+		color: gray;
+		cursor: pointer;
+	}
+	.overtxt
+	{
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	.bloodalarm_uleven li,.bloodalarm_ulodd li
+	{
+		height: 40px;
+		float: left;
+		vertical-align: middle;
+		font-size: 13px;
+		width: 20%;
+		padding: 5px 10px;
+		text-align: center;
+		color: gray;
+		cursor: pointer;
+		overflow: hidden;
+	}
+	.minHeight
+	{
+		height: 50px!important;
+	}
+	.bloodalcont
+	{
+		padding: 15px 10px!important;
+	}
+	.bloodalarm
+	{
+		width:50%;
+		float: left;
+	}
+	.blarm
+	{
+		font-size: 18px;
+	}
+	.numberpage
+	{
+		color: gray;
+		width: 30px;
+		height: 30px;
+		display: inline-block;
+		line-height: 30px;
+		text-decoration: none;
+	}
+	.pages span
+	{
+		color:gray;
+		padding: 0 5px;
+		letter-spacing: 2px;
+		margin-left: 30px;
+	}
+	.pages span input
+	{
+		color: red;
+		width: 70px;
+		outline: none;
+		margin: 0 5px;
+	}
+	.numberpage:hover,.leftpage:hover,.rightpage:hover
+	{
+		color: green;
+		text-decoration: underline;
+	}
+	.pagedr
+	{
+		text-align: center;
+		font-size: 13px;
+		padding: 10px;
+		margin-top: 30px;
+	}
+	.firstpage
+	{
+		margin-left: -30px;
+		width: 30px;
+		height: 30px;
+		display: inline-block;
+		line-height: 30px;
+		text-decoration: none;
+		color: gray;
+	}
+	.lastpage
+	{
+		color: gray;
+		width: 30px;
+		height: 30px;
+		display: inline-block;
+		line-height: 30px;
+		text-decoration: none;
+	}
+	.firstpage:hover,.lastpage:hover
+	{
+		text-decoration: none!important;
+		color: red;
+	}
+	.leftpage,.rightpage
+	{
+		color: gray;
+	}
+	.toPage
+	{
+		background: red;
+		color: white;
+		border-radius: 15px;
+		outline: none;
+	}

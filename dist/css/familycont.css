@@ -1,0 +1,42 @@
+.familyscontent
+{
+	border: 1px solid white;
+    border-radius: 5px;
+    width: 95%;
+    margin: 40px auto;
+    padding: 0 10px;
+    border-top: 2px solid red;
+}
+.familyscontent table
+{
+	margin: 10% auto;
+	color: gray;
+}
+.familyscontent table tr td
+{
+	outline: none;
+}
+.familycancel {
+	top: 300px;
+	right: 50px;
+	position: fixed;
+	border: 1px solid #0fa4a1;
+	width: 30px;
+	height: 30px;
+	padding: 15px;
+	border-radius: 50%;
+	background: #0fa4a1;
+	cursor: pointer;
+}
+.familyconfirm {
+	top: 500px;
+	right: 50px;
+	position: fixed;
+	border: 1px solid #0fa4a1;
+	width: 30px;
+	height: 30px;
+	padding: 15px;
+	border-radius: 50%;
+	background: #0fa4a1;
+	cursor: pointer;
+}

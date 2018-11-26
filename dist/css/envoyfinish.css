@@ -1,0 +1,59 @@
+	.envoyfinishcontent
+	{
+		border: 1px solid white;
+		border-radius: 5px;
+		width: 90%;
+		margin: 40px auto;
+		background: white;
+		padding: 0 10px;
+		border-top: 2px solid red;
+	}
+	.envoyfinishdata
+	{
+		border-bottom: 1px solid lightgray;
+		padding: 20px 10px;
+	}
+	.envoyfinishdata div
+	{
+		float: left;
+		width: 11%;
+		padding: 0 10px;
+		font-size: 16px;
+		text-align: center;
+		font-weight: bold;
+		color: rgba(0,0,0,.5);
+	}
+	.envoyfinishcont
+	{
+		height:60px;
+		display:table;
+		width: 100%;
+	}
+	.envoyfinishcont ul
+	{
+		vertical-align:middle;
+		display:table-cell;
+		cursor:pointer;
+	}
+	.envoyfinish_ulodd
+	{
+		background: #F8F8F8;
+	}
+	.envoyfinish_uleven
+	{
+		background: white;
+	}
+	.envoyfinishcont ul li
+	{
+		float: left;
+		vertical-align: middle;
+		font-size: 15px;
+		width: 11%;
+		padding: 10px;
+		text-align: center;
+		color: gray;
+	}
+	.envoyfinishcont ul li:nth-of-type(2),.envoyfinishcont ul li:nth-of-type(4)
+	{
+		letter-spacing: 1px;
+	}

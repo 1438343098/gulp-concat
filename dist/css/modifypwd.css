@@ -1,0 +1,229 @@
+	.pwdbtn {
+		margin-top: 10px;
+		padding: 10px 10px 0 10px;
+	}
+	
+	.modadmin {
+		position: relative;
+		margin-top: 10px;
+		margin-bottom: 5px;
+		height: 25px;
+		line-height: 25px;
+		color: #949394;
+	}
+	
+	#modadmin,
+	#modpwd,
+	#pwdagain,
+	#findpwd,
+	#addfindpwd,
+	#cityname,
+	#addcityname {
+		width: 100%;
+		padding: 0 3px;
+		outline: none;
+		height: 35px;
+		line-height: 35px;
+		font-size: 15px;
+		border: 1px solid #999;
+		color: #555555;
+	}
+	
+	.city,.addcity {
+		margin-top: 5px;
+		position: relative;
+	}
+	
+	#remarks {
+		width: 100%;
+		outline: none;
+		height: 300px;
+		font-size: 15px;
+		border: 1px solid #999;
+		color: #555555;
+	}
+	
+	.modpwd {
+		height: 35px;
+		line-height: 35px;
+		margin: 10px 0 10px 0;
+		position: relative;
+		font-family: "微软雅黑";
+	}
+	
+	.pwdagain {
+		height: 25px;
+		line-height: 25px;
+		margin: 10px 0 20px 0;
+		position: relative;
+		font-family: "微软雅黑";
+	}
+	
+	.findpwd,.addfindpwd {
+		height: 35px;
+		line-height: 35px;
+		margin: 10px 0 10px 0;
+		position: relative;
+		font-family: "微软雅黑";
+	}
+	
+	.remarks {
+		margin: 10px 0 10px 0;
+		position: relative;
+		font-family: "微软雅黑";
+	}
+	
+	#labelId11 {
+		color: #949394;
+		height: 15px;
+		line-height: 15px;
+		font-size: 14px;
+		position: absolute;
+		left: 3px;
+		top: 7px;
+		letter-spacing: 1.5px;
+	}
+	
+	#labelId12 {
+		color: #949394;
+		height: 15px;
+		line-height: 15px;
+		font-size: 14px;
+		position: absolute;
+		left: 3px;
+		top: 10px;
+		letter-spacing: 1.5px;
+	}
+	
+	#labelId13 {
+		color: #949394;
+		height: 15px;
+		line-height: 15px;
+		font-size: 14px;
+		position: absolute;
+		left: 3px;
+		top: 10px;
+		letter-spacing: 1.5px;
+	}
+	
+	#labelId14 {
+		color: #949394;
+		height: 15px;
+		line-height: 15px;
+		font-size: 14px;
+		position: absolute;
+		left: 3px;
+		top: 10px;
+		letter-spacing: 1.5px;
+	}
+	
+	#labelId15 {
+		color: #949394;
+		height: 50px;
+		font-size: 14px;
+		position: absolute;
+		left: 3px;
+		top: 2px;
+		letter-spacing: 1.5px;
+		outline: none;
+	}
+	
+	#labelId16 {
+		color: #949394;
+		height: 50px;
+		font-size: 14px;
+		position: absolute;
+		left: 3px;
+		top: 10px;
+		letter-spacing: 1.5px;
+		outline: none;
+	}
+	#labelId17 {
+		color: #949394;
+		height: 15px;
+		line-height: 15px;
+		font-size: 14px;
+		position: absolute;
+		left: 3px;
+		top: 10px;
+		letter-spacing: 1.5px;
+	}
+	#labelId18 {
+		color: #949394;
+		height: 15px;
+		line-height: 15px;
+		font-size: 14px;
+		position: absolute;
+		left: 3px;
+		top: 10px;
+		letter-spacing: 1.5px;
+	}
+	.modsave {
+		background: red;
+		padding: 8px 10px;
+		border-radius: 5px;
+		margin-left: 10px;
+		box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.09);
+		border: 1px;
+		color: white;
+		border-color: white;
+		outline: none;
+		cursor: pointer;
+		width: 72px;
+		font-size: 14px;
+	}
+	
+	.modcancel {
+		background: red;
+		padding: 8px 10px;
+		border-radius: 5px;
+		margin-left: 10px;
+		box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.09);
+		border: 1px;
+		color: white;
+		border-color: white;
+		outline: none;
+		cursor: pointer;
+		width: 72px;
+		font-size: 14px;
+	}
+	
+	.modify {
+		float: left;
+		border-top: 2px solid red;
+		border-radius: 5px;
+		background: white;
+		width: 44%;
+		display: none;
+	}
+	
+	.modifycont {
+		padding: 25px;
+	}
+	
+	.xg {
+		margin-top: -10px;
+		font-size: 18px;
+	}
+	
+	.forgetpwd {
+		margin-top: 15px;
+		color: red;
+		border-bottom: 1px solid red;
+		width: 80px;
+		cursor: pointer;
+	}
+	
+	.findpassword,
+	.citylocal,
+	.add_findpassword,
+	.add_citylocal {
+		margin-top: 20px;
+	}
+	
+	.hidemail {
+		color: red;
+		border-bottom: 1px solid red;
+		margin-left: 10px;
+		cursor: pointer;
+	}

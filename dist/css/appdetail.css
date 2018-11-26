@@ -1,0 +1,221 @@
+.appdetailcontent
+{
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 90%;
+    margin: 40px auto;
+    background: white;
+    padding: 0 10px;
+    border-top: 2px solid red;
+}
+.appintroduce
+{
+	float: left;
+	font-size: 18px;
+	color: gray;
+	padding: 30px 0;
+	margin-left:40px;
+	width: 50%;
+}
+.appintroduce li
+{
+	padding: 5px;
+}
+.unindentcont
+{
+	float: left;
+	width:100%;
+	height: 300px;
+	color: gray;
+	text-align: left;
+	padding: 30px;
+	font-size: 18px;
+}
+.unindentcont li
+{
+	padding: 3px;
+}
+.cancelindentcont
+{
+	float: left;
+	width:100%;
+	height: 300px;
+	color: gray;
+	text-align: left;
+	display: none;
+	padding: 30px;
+	font-size: 18px;
+}
+.cancelindentcont li
+{
+	padding: 3px;
+}
+.indentingcont
+{
+	float: left;
+	width:100%;
+	height: 300px;
+	color: gray;
+	text-align: left;
+	display: none;
+	padding: 30px;
+	font-size: 18px;
+}
+.indentingcont li
+{
+	padding: 3px 0;
+	white-space: nowrap;
+}
+.finishindentcont
+{
+	float: left;
+	width:100%;
+	height: 300px;
+	color: gray;
+	text-align: left;
+	display: none;
+	padding: 30px;
+	font-size: 18px;
+}
+.finishindentcont li
+{
+	padding: 3px;
+}
+.appmessage
+{
+	width: 50%;
+	border-right: 1px solid lightgray;
+	float: left;
+	margin-top: 20px;
+	margin-top: 100px;
+	padding-bottom: 400px;
+}
+.appdetailmessage
+{
+	float: left;
+	text-align: center;
+	padding: 30px 0px;
+}
+.appdetailmessage img
+{
+	border-radius: 50%;
+}
+.appimei
+{
+	background: #25bfbb;
+	padding: 5px;
+	border-radius: 50px;
+	font-size: 13px;
+	color: white;
+	width: 150px;
+	text-align: center;
+	margin-top: 10px;
+}
+.appdetailmessage div:last-child
+{
+	padding: 10px 0;
+	color: gray;
+}
+.indent
+{
+	float: left;
+	width: 45%;
+	height: 300px;
+	padding: 5px 10px;
+}
+.indentcont
+{
+	text-align: center;
+	margin-top: 100px;
+}
+.indentcontdiv
+{
+	margin-top: 10px;
+	border-radius: 10px;
+	border-top: 1px solid gray;
+}
+.unindent
+{
+	padding: 8px;
+	margin: 30px 15px 8px 0;
+	background: red;
+    border-radius: 5px;
+    box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.09);
+    border: 1px;
+    color: white;
+    border-color: white;
+    outline: none;
+    cursor: pointer;
+}
+.cancelindent
+{
+	padding: 7px;
+	margin: 30px 15px 8px 0;
+	background: red;
+    border-radius: 5px;
+    box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.09);
+    border: 1px;
+    color: white;
+    border-color: white;
+    outline: none;
+    cursor: pointer;
+}
+.indenting
+{
+	padding: 7px;
+	margin: 30px 15px 8px 0;
+	background: red;
+    border-radius: 5px;
+    box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.09);
+    border: 1px;
+    color: white;
+    border-color: white;
+    outline: none;
+    cursor: pointer;
+}
+.finishindent
+{
+	padding: 7px;
+	margin: 30px 0px 8px 0;
+	background: red;
+    border-radius: 5px;
+    box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.09);
+    border: 1px;
+    color: white;
+    border-color: white;
+    outline: none;
+    cursor: pointer;
+}
+.buttonindent
+{
+	margin: 0 auto;
+}
+.tsindent
+{
+	padding: 7px;
+	background: red;
+    border-radius: 50px;
+    box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.09);
+    border: 1px;
+    color: white;
+    border-color: white;
+    outline: none;
+    cursor: pointer;
+}
+.tsred
+{
+	color: red;
+}
+.appdebtn
+{
+	margin-left: 40px;
+	background: red;
+	padding: 8px 10px;
+	border-radius: 5px;
+	box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.09);
+	border: 1px;
+	color: white;
+	border-color: white;
+	outline: none;
+	cursor: pointer;
+}

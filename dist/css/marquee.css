@@ -1,0 +1,116 @@
+.marquee ul
+	{
+		vertical-align: middle;
+		padding: 0;
+		width: 95%;
+		list-style: none;
+		margin: 0 auto;
+	}
+	.even
+	{
+		background: #FBFBFB;
+	}
+	.ulHeader
+	{
+		border-bottom: 1px solid lightgray;
+	}
+	.ulHeader li
+	{
+		font-size: 16px!important;
+		color: rgba(0,0,0,0.5);
+		font-weight: bold;
+	}
+	.odd
+	{
+		background: white;
+	}
+	.lio
+	{
+		padding: 20px 0;
+		text-align: center;
+	}
+	.aleft
+	{
+		text-align: left;
+	}
+	.txt
+	{
+		padding-top: 12px;
+	}
+	.marquee ul li
+	{
+		vertical-align: middle;
+		word-wrap: break-word;
+		float: left;
+		color: gray;
+		font-size: 14px;
+		/*min-height: 20px;*/
+		width: 200px;
+		font-family:微软雅黑;
+		cursor: pointer;
+	}
+	.txt
+	{
+		text-align: center;
+	}
+	.pages a
+	{
+		color: gray;
+		width: 30px;
+		height: 30px;
+		display: inline-block;
+		line-height: 30px;
+		text-decoration: none;
+	}
+	.pages span
+	{
+		color:gray;
+		padding: 0 5px;
+		letter-spacing: 2px;
+		margin-left: 30px;
+	}
+	.pages span input
+	{
+		color: red;
+		width: 70px;
+		outline: none;
+		margin: 0 5px;
+	}
+	.pages a:hover
+	{
+		color: green;
+		text-decoration: underline;
+	}
+	.firstpage
+	{
+		margin-left: -30px;
+	}
+	.firstpage:hover,.lastpage:hover
+	{
+		text-decoration: none!important;
+		color: red!important;
+	}
+	.toPage
+	{
+		background: red;
+		color: white;
+		border-radius: 15px;
+		outline: none;
+	}
+	.martri
+	{
+		position: relative;
+		display: none;
+	}
+	.fixed
+	{
+		position: absolute;
+		top: 120px!important;
+		right:20px!important;
+	}
+	#labelId4
+	{
+		font-size: 13px!important;
+		top: 5px!important;;
+	}
+

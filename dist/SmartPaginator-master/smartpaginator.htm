@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<title>Smart Pagination</title>
+		<script src="jquery-1.4.4.min.js" type="text/javascript"></script>
+		<script src="smartpaginator.js" type="text/javascript"></script>
+		<link href="smartpaginator.css" rel="stylesheet" type="text/css" />
+
+	</head>
+	<style type="text/css">
+		@media only screen and (max-width: 1000px) {
+			body {
+				width: 1200px;
+			}
+		}
+	</style>
+
+	<body style="padding: 20px;">
+
+		<div id="wrapper">
+			<div id="red-contents" class="contents" style="border: solid 1px #F82723;">
+				<div style="text-align: center; font-size: 30px;color: #F82723;padding: 10px 0;" id="r">
+					<!--Page # 1-->
+				</div>
+				<div id="red" style="margin: auto;">
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
+<script type="text/javascript">
+	$(document).ready(function() {
+		var newPage = 1
+		var page = '<div class="cancelindentcont">' +
+			'2017-07-12 08:52:37' + '------' + newPage +
+			'</div>'
+		for(i = $('#r').height(); i <= window.screen.availHeight - 260; i += $('.cancelindentcont').height()) {
+			$('#r').append(page)
+			newPage += 1
+		}
+		//		alert($('#r').height() + ',' + window.screen.availHeight)
+		$('#red').smartpaginator({
+			totalrecords: 320000,
+			recordsperpage: 10,
+			//			length: 80,
+			next: '>',
+			prev: '<',
+			first: '首页',
+			last: '尾页',
+			theme: 'red',
+			onchange: function(newPage) {
+				$('#r').html('')
+				var page = '<div class="cancelindentcont">' +
+					'2017-07-12 08:52:37' + '------' + newPage +
+					'</div>'
+				for(i = $('#r').height(); i <= window.screen.availHeight - 260 - $('.cancelindentcont').height(); i += $('.cancelindentcont').height()) {
+					$('#r').append(page)
+				}
+				$('#r').append(page);
+			}
+		});
+	});
+</script>

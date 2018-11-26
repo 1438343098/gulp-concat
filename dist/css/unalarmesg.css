@@ -1,0 +1,105 @@
+	.unalarmesgcontent
+	{
+		border: 1px solid white;
+		border-radius: 5px;
+		width: 90%;
+		margin: 40px auto;
+		background: white;
+		padding: 0 10px;
+		border-top: 2px solid red;
+	}
+	.unalarmesgdata
+	{
+		border-bottom: 1px solid lightgray;
+		padding: 20px 10px;
+	}
+	.unalarmesgdata div
+	{
+		float: left;
+		width: 17%;
+		padding: 0 10px;
+		font-size: 16px;
+		text-align: center;
+		font-weight: bold;
+		color: rgba(0,0,0,.5);
+	}
+	.unalarmesgcont
+	{
+		height:60px;
+		display:table;
+		width: 100%;
+	}
+	.unalarmesgcont ul
+	{
+		vertical-align:middle;
+		display:table-cell;
+		cursor:pointer;
+	}
+	.unalarmesg_ulodd
+	{
+		background: #F8F8F8;
+	}
+	.unalarmesg_uleven
+	{
+		background: white;
+	}
+	.unalarmesgcont ul li
+	{
+		float: left;
+		vertical-align: middle;
+		font-size: 15px;
+		width: 17%;
+		padding: 10px;
+		text-align: center;
+		color: gray;
+	}
+	.listdata
+	{
+		width: 95%;
+	}
+	.overflow
+	{
+		text-overflow: ellipsis;
+		overflow: hidden;
+		white-space: nowrap;
+	}
+	.alremind
+	{
+	     margin-left: 15px;
+	    border-radius: 5px;
+	    box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.09);
+	    outline: none;
+	    border: 1px solid lightcoral;
+	    letter-spacing: 1px;
+	    color:gray;
+	    background: none;
+	    cursor: pointer;
+	    font-size: 13px;
+	    padding: 10px;
+	    background: antiquewhite;
+	}
+	.alpad
+	{
+		padding: 5px;
+		margin-top: 5px;
+	}
+	.trialarm
+	{
+		border-left: 5px solid white;
+		border-right: 5px solid white;
+		border-bottom: 10px solid lightsalmon;
+		width: 0px;
+		height: 0px;
+		position: relative;
+		left:29%;
+	}
+	.radalarm
+	{
+		color: red;
+		text-align: center;
+		border-radius: 10px;
+		padding: 10px;
+		border: 1px solid lightgray;
+		font-size: 14px;
+		font-weight: bold;
+	}

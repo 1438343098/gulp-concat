@@ -1,0 +1,70 @@
+	.unrescontent
+	{
+		border: 1px solid white;
+		border-radius: 5px;
+		width: 90%;
+		margin: 40px auto;
+		background: white;
+		padding: 0 10px;
+		border-top: 2px solid red;
+	}
+	.unresdata
+	{
+		border-bottom: 1px solid lightgray;
+		padding: 20px 10px;
+	}
+	.unresdata div
+	{
+		float: left;
+		width: 10%;
+		padding: 0 10px;
+		font-size: 16px;
+		text-align: center;
+		font-weight: bold;
+		color: rgba(0,0,0,.5);
+		word-break: break-all;
+	}
+	.unresdata div:nth-of-type(7)
+	{
+		width: 9%;
+	}
+	.unrescont
+	{
+		height:60px;
+		display:table;
+		width: 100%;
+	}
+	.unrescont ul
+	{
+		vertical-align:middle;
+		display:table-cell;
+		cursor:pointer;
+	}
+	.unres_ulodd
+	{
+		background: #F8F8F8;
+	}
+	.unres_uleven
+	{
+		background: white;
+	}
+	.unrescont ul li
+	{
+		float: left;
+		vertical-align: middle;
+		font-size: 15px;
+		width: 10%;
+		padding: 10px;
+		text-align: center;
+		color: gray;
+		word-break: break-all;
+	}
+	.unrescont ul li:nth-of-type(7)
+	{
+		width: 9%;
+		letter-spacing: 1px;
+	}
+	.unrescont ul li:nth-of-type(2),.unrescont ul li:nth-of-type(4),.unrescont ul li:nth-of-type(6)
+	{
+		letter-spacing: 1px;
+	}

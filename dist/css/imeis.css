@@ -1,0 +1,73 @@
+	.imeiscontent
+	{
+		border: 1px solid white;
+		border-radius: 5px;
+		width: 90%;
+		margin: 40px auto;
+		background: white;
+		padding: 0 10px;
+		border-top: 2px solid red;
+	}
+	.imeisdata
+	{
+		border-bottom: 1px solid lightgray;
+		padding: 20px 10px;
+	}
+	.imeisdata div
+	{
+		float: left;
+		width: 9%;
+		padding: 0 10px;
+		font-size: 16px;
+		text-align: center;
+		font-weight: bold;
+		color: rgba(0,0,0,.5);
+	}
+	.imeisdata div:nth-of-type(4)
+	{
+		width: 15%;
+	}
+	.imeiscont
+	{
+		height:60px;
+		display:table;
+		width: 100%;
+	}
+	.imeiscont ul
+	{
+		vertical-align:middle;
+		display:table-cell;
+		cursor:pointer;
+	}
+	.imeis_ulodd
+	{
+		background: #F8F8F8;
+	}
+	.oldbground
+	{
+		background: lightgoldenrodyellow;
+	}
+	.imeis_uleven
+	{
+		background: white;
+	}
+	.imeiscont ul li
+	{
+		float: left;
+		vertical-align: middle;
+		font-size: 15px;
+		width: 9%;
+		padding: 10px;
+		text-align: center;
+		color: gray;
+	}
+	.imeiscont ul li:nth-of-type(4)
+	{
+		width: 15%;
+		
+	}
+	.imeiscont ul li:nth-of-type(2),.imeiscont ul li:nth-of-type(5),.imeiscont ul li:nth-of-type(7)
+	{
+		letter-spacing: 1px;
+	}
+	

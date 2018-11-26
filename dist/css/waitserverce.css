@@ -1,0 +1,97 @@
+	.waitsercontent
+	{
+		border: 1px solid white;
+		border-radius: 5px;
+		width: 90%;
+		margin: 40px auto;
+		background: white;
+		padding: 0 10px;
+		border-top: 2px solid red;
+	}
+	.waitserdata
+	{
+		border-bottom: 1px solid lightgray;
+		padding: 20px 10px;
+	}
+	.waitserdata div
+	{
+		float: left;
+		width: 14%;
+		padding: 0 10px;
+		font-size: 16px;
+		text-align: center;
+		font-weight: bold;
+		color: rgba(0,0,0,.5);
+		word-break: break-all;
+	}
+	.waitserdata div:first-child
+	{
+		width: 15%;
+	}
+	.waitserdata div:last-child
+	{
+		width: 13%;
+	}
+	.waitserdata div:nth-of-type(3)
+	{
+		width: 18%;
+	}
+	.waitserdata div:nth-of-type(5)
+	{
+		width: 8%;
+	}
+	.waitsercont
+	{
+		height:60px;
+		display:table;
+		width: 100%;
+	}
+	.waitsercont ul
+	{
+		vertical-align:middle;
+		display:table-cell;
+		cursor:pointer;
+	}
+	.waitser_ulodd
+	{
+		background: #F8F8F8;
+	}
+	.waitser_uleven
+	{
+		background: white;
+	}
+	.waitsercont ul li
+	{
+		float: left;
+		vertical-align: middle;
+		font-size: 15px;
+		width: 14%;
+		padding: 10px;
+		text-align: center;
+		color: gray;
+		word-break: break-all;
+	}
+	.waitsercont ul li:nth-of-type(2),.waitsercont ul li:nth-of-type(4)
+	{
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		overflow: hidden;
+		letter-spacing: 1px;
+	}
+	.waitsercont ul li:nth-of-type(5)
+	{
+		letter-spacing: 1px;
+	}
+	.waitsercont ul li:first-child
+	{
+		width: 15%;
+	}
+	.waitsercont ul li:nth-of-type(3)
+	{
+		width: 18%;
+	}
+
+	.waitsercont ul li:nth-of-type(5)
+	{
+		width: 8%;
+	}

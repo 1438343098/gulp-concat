@@ -1,0 +1,73 @@
+	.irs {
+		width: 600px;
+		margin: 20px 50px;
+	}
+	
+	.irs-grid {
+		display: none!important;
+	}
+	
+	.rangeslidercontent {
+		border: 1px solid white;
+		border-radius: 5px;
+		height: 850px;
+		width: 90%;
+		margin: 40px auto;
+		background: #F8F8F8;
+		padding: 0 10px;
+	}
+	
+	.datasetting {
+		float: left;
+		margin:-135px 0 0 -60px;
+	}
+	
+	.datasetting li button {
+		width: 100px;
+		/*border: none;*/
+		border: 1px solid #333333;
+		cursor: pointer;
+		height: 45px;
+		outline: none;
+		font-size: 15px;
+		text-align: center;
+		background:white;
+		border-radius: 50%;
+		margin-bottom: 15px;
+		color:black;
+		line-height: 45px;
+		font-family: "微软雅黑";
+	}
+	.datasetting li:first-child button
+	{
+		color: red;
+	}
+	.setheart
+	{
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+	}
+	.setsos
+	{
+		border-bottom: 1px solid pink!important;
+		border-bottom-left-radius: 5px;
+		border-bottom-right-radius: 5px;
+	}
+	.datasetting li button:hover {
+		color: red;
+	}
+	.irs-with-grid{
+		display: none;
+	}
+	.irs-with-grid1{
+		display: block;
+		margin:41px 0 0 0!important;
+	}
+	.rheart,.rblood,.rsugar,.rsleep
+	{
+		float: left;
+	}
+	.rheart h4,.rblood h4,.rsugar h4,.rsleep h4
+	{
+		margin: 40px 0px 0px 40px;
+	}

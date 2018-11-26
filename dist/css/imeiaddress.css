@@ -1,0 +1,151 @@
+	.imeiaddressdata div {
+		float: left;
+		width: 30%;
+		word-break: break-all;
+		padding: 0 10px;
+		font-size: 16px;
+		text-align: center;
+		font-weight: bold;
+		color: rgba(0, 0, 0, .5);
+		word-break: break-word;
+	}
+	
+	.imeiaddressdata div:nth-of-type(2) {
+		width: 24%;
+	}
+	
+	.imeiaddressdata {
+		border-bottom: 1px solid lightgray;
+		padding: 10px;
+	}
+	
+	.imeiaddressheader {
+		padding: 10px;
+		color: #444444;
+	}
+	
+	.imeiaddresscontent {
+		border: 1px solid white;
+		border-radius: 5px;
+		width: 90%;
+		margin: 40px auto;
+		background: white;
+		padding: 0 10px;
+		border-top: 2px solid red;
+	}
+	
+	.bloodtext {
+		float: left;
+		margin-top: 10px;
+		font-size: 18px;
+	}
+	
+	.imeiaddresstxt {
+		margin-top: 6px;
+	}
+	
+	.imeiaddresstxt span {
+		padding: 5px;
+		font-size: 16px;
+		letter-spacing: 1px;
+	}
+	
+	.imeiaddresstxt input {
+		outline: none;
+		width: 200px;
+		height: 18px;
+		text-align: left;
+		padding-left: 3px;
+		background: white;
+		border: none;
+		box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.09);
+		font-size: 16px;
+		font-family: 微软雅黑;
+		letter-spacing: 1px;
+	}
+	
+	.imeiaddresstxt button {
+		background: red;
+		padding: 8px 10px;
+		border-radius: 5px;
+		margin-left: 10px;
+		box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.09);
+		border: 1px;
+		color: white;
+		border-color: white;
+		outline: none;
+		cursor: pointer;
+	}
+	
+	.imeiaddressnum {
+		height: 60px;
+		display: table;
+		width: 100%;
+	}
+	
+	.imeiaddress_ulodd,
+	.imeiaddress_uleven {
+		padding: 0;
+		list-style: none;
+	}
+	
+	.imeiaddress_ulodd {
+		vertical-align: middle;
+		display: table-cell;
+		background: #F8F8F8;
+	}
+	
+	.imeiaddress_uleven {
+		vertical-align: middle;
+		display: table-cell;
+		background: white;
+	}
+	
+	.imeiaddress_ulodd li,
+	.imeiaddress_uleven li {
+		float: left;
+		vertical-align: middle;
+		font-size: 15px;
+		width: 30%;
+		padding: 10px;
+		text-align: center;
+		color: gray;
+		cursor: pointer;
+		word-break: break-all;
+	}
+	
+	.imeiaddress_ulodd li:nth-of-type(2),
+	.imeiaddress_uleven li:nth-of-type(2) {
+		text-overflow: ellipsis;
+		overflow: hidden;
+		white-space: nowrap;
+		width: 24%;
+	}
+	
+	.imeaddheads {
+		color: #333333;
+		font-size: 18px;
+	}
+	
+	.imefound,
+	.imefind {
+		background: red;
+		padding: 8px 10px;
+		border-radius: 5px;
+		margin-left: 10px;
+		box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.09);
+		border: 1px;
+		color: white;
+		border-color: white;
+		outline: none;
+		cursor: pointer;
+	}
+	
+	.till,
+	.datend {
+		display: none;
+	}
+	.till
+	{
+		font-size: 17px;
+	}

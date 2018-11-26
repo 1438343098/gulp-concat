@@ -1,0 +1,105 @@
+.poscontent
+{
+	border: 1px solid white;
+	border-radius: 5px;
+	width: 90%;
+	margin: 40px auto;
+	background: white;
+	padding: 0 10px;
+	border-top: 2px solid red;
+}
+.posheader
+{
+	padding:10px;
+	color: #444444;
+}
+.postxtrt
+{
+	margin-top: 6px;
+}
+.postxtrt span
+{
+	letter-spacing: 1px;
+	padding: 5px;
+	font-size: 17px;
+}
+.postxtrt span input
+{
+	width: 250px;
+ 	height: 25px;
+ 	line-height:25px;
+  	font-family: 微软雅黑;
+	background: white;
+	border: none;
+	box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.09);
+	outline: none;
+	margin-left: 5px;
+}
+.postxtrt button
+{
+	background: red;
+	padding: 8px 10px;
+	border-radius: 5px;
+	box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.09);
+	border: 1px;
+	color: white;
+	border-color: white;
+	outline: none;cursor: pointer;
+}
+.posdata
+{
+	border-bottom: 1px solid lightgray;
+	padding: 10px;
+}
+.posdata div
+{
+	float: left;
+	width: 30%;
+	padding: 0 10px;
+	font-size: 16px;
+	text-align: center;
+	font-weight: bold;
+	color: rgba(0,0,0,.5);
+}
+.poscont
+{
+	height:60px;
+	display:table;
+	width: 100%;
+}
+.poscont ul
+{
+	vertical-align:middle;
+	display:table-cell;
+	cursor:pointer;
+}
+.pos_ulodd
+{
+	background: #F8F8F8;
+}
+.pos_uleven
+{
+	background: white;
+}
+.poscont ul li
+{
+	float: left;
+	vertical-align: middle;
+	font-size: 15px;
+	width: 30%;
+	padding: 10px;
+	text-align: center;
+	color: gray;
+}
+.poscont ul li:nth-of-type(2)
+{
+	letter-spacing: 1.5px;
+}
+.normal
+{
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+

@@ -1,0 +1,106 @@
+	.sendcontent
+	{
+		margin: 40px 10px;
+		padding: 0 10px;
+	}
+	.sendheader
+	{
+		border-bottom: 1px solid lightgray;
+		padding:20px 10px;
+		border-top: 1px solid lightgray;
+		margin-top: 10px;
+	}
+	.sendheader div
+	{
+		float: left;
+		width: 20%;
+		padding: 0 10px;
+		font-size: 16px;
+		text-align: center;
+		font-weight: bold;
+		color: rgba(0,0,0,.5);
+		word-break: break-all;
+	}
+	.sendcont
+	{
+		height:60px;
+		display:table;
+		width: 100%;
+	}
+	.sendcont ul
+	{
+		vertical-align:middle;
+		display:table-cell;
+		cursor:pointer;
+	}
+	.send_ulodd
+	{
+		background: #F8F8F8;
+	}
+	.send_uleven
+	{
+		background: white;
+	}
+	.sendcont ul li
+	{
+		float: left;
+		vertical-align: middle;
+		font-size: 15px;
+		width: 20%;
+		padding: 10px;
+		text-align: center;
+		color: gray;
+		word-break: break-all;
+	}
+	.sendsave
+	{
+		background: red;
+		padding: 8px 10px;
+		border-radius: 5px;
+		margin-left: 10px;
+		box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.09);
+		border: 1px;
+		color: white;
+		border-color: white;
+		outline: none;
+		cursor: pointer;
+		width: 72px;
+	}
+	.sendcancel
+	{
+		background: red;
+		padding: 8px 10px;
+		border-radius: 5px;
+		margin-left: 20px;
+		box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.09);
+		border: 1px;
+		color: white;
+		border-color: white;
+		outline: none;
+		cursor: pointer;
+		width: 72px;
+	}
+	.sendrt
+	{
+		float: left;
+		border-top: 2px solid red;
+		border-radius: 5px;
+		background: white;
+		width: 44%;
+		display: none;
+	}
+	.sendrts
+	{
+		width: 90%;
+		margin: 0 auto;
+		padding: 15px;
+		color: gray;
+	}
+	.sendrtls
+	{
+		float: left;
+		margin-top: 5px;
+		font-size: 18px;
+		color: #666666;
+		text-decoration:i;
+	}

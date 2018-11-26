@@ -1,0 +1,131 @@
+	.distrcontent
+	{
+		margin: 40px 10px;
+		padding: 0 10px;
+	}
+	.distrheader
+	{
+		border-bottom: 1px solid lightgray;
+		padding:20px 10px;
+		border-top: 1px solid lightgray;
+		margin-top: 10px;
+	}
+	.distrheader div
+	{
+		float: left;
+		width: 30%;
+		padding: 0 10px;
+		font-size: 16px;
+		text-align: center;
+		font-weight: bold;
+		color: rgba(0,0,0,.5);
+		word-break: break-all;
+	}
+	.distrheader div:nth-of-type(2)
+	{
+		width: 25%;
+	}
+	.distrcont
+	{
+		height:60px;
+		display:table;
+		width: 100%;
+	}
+	.distrcont ul
+	{
+		vertical-align:middle;
+		display:table-cell;
+		cursor:pointer;
+	}
+	.distr_ulodd
+	{
+		background: #F8F8F8;
+	}
+	.distr_uleven
+	{
+		background: white;
+	}
+	.distrcont ul li
+	{
+		float: left;
+		vertical-align: middle;
+		font-size: 15px;
+		width: 30%;
+		padding: 10px;
+		text-align: center;
+		color: gray;
+		word-break: break-all;
+	}
+	.distrcont ul li:nth-of-type(2)
+	{
+		width: 25%;
+	}
+	.disfind
+	{
+		background: red;
+		margin-left: 20px;
+		padding: 8px 10px;
+		border-radius: 5px;
+		box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.09);
+		border: 1px;
+		color: white;
+		border-color: white;
+		outline: none;
+		cursor: pointer;
+	}
+	.discancel
+	{
+		background: red;
+		padding: 8px 10px;
+		border-radius: 5px;
+		box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.09);
+		border: 1px;
+		color: white;
+		margin-left: 10px;
+		border-color: white;
+		outline: none;
+		cursor: pointer;
+	}
+	.disimei
+	{
+		outline: none;
+		width: 180px;
+		height: 18px;
+		font-size: 18px;
+		color: gray;
+		background: white;
+		border: none;
+		box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.09);
+	}
+	.distrt
+	{
+		float: left;
+		border-top: 2px solid red;
+		border-radius: 5px;
+		background: white;
+		width: 44%;
+		display: none;
+	}
+	.distrts
+	{
+		width: 90%;
+		padding: 10px 10px 0 10px;
+		color: gray;
+		letter-spacing: 1px;
+	}
+	.imeilst
+	{
+		font-size: 18px;
+		color: #666666;
+		margin: 10px 0;
+	}
+	.imeito
+	{
+		color: red;
+		font-weight: bold;
+	}
+	.imeifind
+	{
+		margin-top: 3px;
+		font-size: 20px;
+	}

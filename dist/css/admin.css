@@ -1,0 +1,140 @@
+	.admincontent
+	{
+		margin: 40px 10px;
+		padding: 0 10px;
+	}
+	.admincontents
+	{
+		float: left;
+		width: 50%;
+		margin-right: 30px;
+		background: white;
+		padding: 10px;
+		border-top: 2px solid red;
+		border-radius: 5px;
+	}
+	.adminls
+	{
+		width: 90%;
+		margin: 0 auto;
+		padding: 10px;color: gray;
+	}
+	.adminlst
+	{
+		font-size: 18px;
+		letter-spacing: 1px;
+		float: left;color: #666666;
+	}
+	.frt
+	{
+		float: right;
+	}
+	.admindata
+	{
+		border-bottom: 1px solid lightgray;
+		padding:20px 10px;
+		border-top: 1px solid lightgray;
+		margin-top: 10px;
+	}
+	.admindata div:first-child
+	{
+		width: 11%;
+	}
+	.admindata div:nth-of-type(6)
+	{
+		width: 8%;
+	}
+	.admindata div:nth-of-type(7)
+	{
+		width: 14%;
+	}
+	.admindata div
+	{
+		float: left;
+		width: 9%;
+		padding: 0 10px;
+		font-size: 16px;
+		text-align: center;
+		font-weight: bold;
+		color: rgba(0,0,0,.5);
+		word-break: break-all;
+	}
+	.admincont
+	{
+		height:60px;
+		display:table;
+		width: 100%;
+	}
+	.admincont ul
+	{
+		vertical-align:middle;
+		display:table-cell;
+		cursor:pointer;
+	}
+	.admin_ulodd
+	{
+		background: #F8F8F8;
+	}
+	.admin_uleven
+	{
+		background: white;
+	}
+	.admincont ul li:first-child
+	{
+		width: 11%;
+	}
+	.admincont ul li:nth-of-type(6)
+	{
+		width: 8%;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	.admincont ul li:nth-of-type(7)
+	{
+		width: 14%;
+	}
+	.admincont ul li
+	{
+		float: left;
+		vertical-align: middle;
+		font-size: 15px;
+		width: 9%;
+		padding: 10px;
+		text-align: center;
+		color: gray;
+		word-break: break-all;
+	}
+	.add
+	{
+		background: red;
+		padding: 8px 10px;
+		border-radius: 5px;
+		margin-left: 10px;
+		box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.09);
+		border: 1px;
+		color: white;
+		border-color: white;
+		outline: none;
+		cursor: pointer;
+		width: 72px;
+	}
+	.send
+	{
+		background: red;
+		padding: 8px 10px;
+		border-radius: 5px;
+		margin-left: 20px;
+		box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.09);
+		border: 1px;
+		color: white;
+		border-color: white;
+		outline: none;
+		cursor: pointer;
+	}
+	.modbtn
+	{
+		margin-top: 10px;
+		padding: 10px 10px 0 10px;
+	}
+	

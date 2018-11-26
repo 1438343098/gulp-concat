@@ -1,0 +1,86 @@
+a {
+	color: #777;
+}
+
+.DSearch {
+	position: relative;
+	float: left;
+}
+
+.clear:after {
+	display: block;
+	height: 0;
+	clear: both;
+	content: '';
+}
+.ui-helper-hidden-accessible
+{
+	display: none;
+}
+.DSearch input {
+	width: 450px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	color: gray;
+	height: 40px;
+	line-height: 40px;
+	font-size: 18px;
+	padding: 0 12px;
+	margin: 5px 0 0 10px;
+	letter-spacing: 1.5px;
+	border: 1px solid #f1ecec;
+}
+
+.DSearch input:focus {
+	outline: 0;
+	color: gray;
+}
+
+.name {
+	float: left;
+}
+
+.color {
+	float: right;
+	font-size: 16px;
+	color: green;
+}
+#searched {
+	width: 450px;
+	height: 40px;
+	line-height: 40px;
+	outline: none;
+	text-align: left;
+	font-size: 18px;
+	color: gray;
+}
+.ui-corner-all {
+	width: 450px!important;
+	background: white!important;
+	border-color: white;
+	padding: 0!important;
+}
+.ui-menu-item {
+	padding-top: 5px!important;
+	height: 30px;
+	line-height: 30px;
+}
+#ui-id-1 {
+	border: 1px solid lightgray;
+	border-radius: 5px;
+	z-index: 999;
+	display: none;
+}
+.tname{
+	float: left;
+	color: gray;
+	font-size: 17px;
+	margin-left: 10px
+}
+
+.tcont{
+	float: right;
+	color: green;
+	font-size: 16px;
+	margin-right: 10px
+}

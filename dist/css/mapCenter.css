@@ -1,0 +1,93 @@
+			#labelId4
+		  	{
+		  		color:gray;
+		  		height:40px;
+		  		line-height:40px;
+		  		font-size: 15px;
+		  		font-family: "微软雅黑";
+		  		position: absolute;
+		  		left: 3px;
+		  		top: 6px;
+		  		letter-spacing:2px;
+		  	}
+		  	::-ms-clear,::-ms-reveal
+		  	{
+		  		display: none;
+		  	}
+			.mapInpt
+			{
+				position: relative;
+				height: 60px;
+				float: left;
+		  		font-family: "宋体";
+		  		width: 205px;
+		  		color: #949394;
+			}
+			#pointSearch
+			{
+				color:#1B1A1A;
+				height: 30px;
+		  		line-height:30px;
+		  		margin-top: 7px;
+		  		outline: none;
+		  		font-family: "微软雅黑";
+		  		letter-spacing: 1.5px;
+		  		border: 2px solid white!important;
+		  		border-radius: 15px;
+		  		padding: 1px;
+		  		width: 220px;
+		  		position: absolute;
+		  		left: 0;
+			}
+			.mapbtn
+			{
+				border: none;
+				padding: 0 15px;
+				border-radius: 25px;
+				background: #3bb6b3;
+				color: white;
+				font-size: 14px;
+				font-weight: bold;
+				background: #3bb6b3;
+				outline-color: white;
+				margin-left:10px;
+				float: left;
+				cursor: pointer;
+			}
+			input::-webkit-input-placeholder,input::-moz-placeholder
+			{
+				color: #DDDDDD;
+				font-family: "微软雅黑";
+			}
+			/*#map
+			{
+				height: 550px;
+			}*/
+			.BMap_CityListCtrl
+			{
+				color:red;
+			}
+			.sel_city_hotcity a:hover{
+				color:red;
+			}
+			#sel_city_letter_list a:hover{
+				color:red;
+			}
+			#selCitySubmit{
+				color:black;
+			}
+			.sel_city_sf a:hover{
+				color:red;
+			}
+			.city_names_wrap a:hover{
+				color:red;
+			}
+			#hot_city_ids a{
+				text-decoration: none!important;
+			}
+			#sel_city_letter_list a{
+				text-decoration: none!important;
+			}
+			#sel_city_letter_list{
+				margin-left: 35px;
+			}

@@ -1,0 +1,105 @@
+.pad30
+{
+	float: left;
+	padding: 60px 0;
+	width: 30%;
+}
+.center
+{
+	/*text-align: center;*/
+}
+.center img
+{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+.ID
+{
+	background: #25bfbb;
+	padding: 5px;
+	border-radius: 50px;
+	font-size: 13px;
+	color: white; 
+	width: 150px; 
+	text-align: center; 
+	margin-top: 10px;
+}
+.mar20
+{
+	color: #333333;
+	margin: 20px 0 0 35px;
+}
+.colr
+{
+	color: #868080;
+}
+.envrt
+{
+	float: left;
+	font-size: 16px;
+	width: 70%;
+	margin-left: -50px;
+}
+.pad32
+{
+	padding: 30px 20px 10px 20px;
+}
+.name
+{
+	float: left;
+	padding:5px 10px;
+	color: #333333;
+}
+.card
+{
+	float: left;
+	padding: 5px 10px;
+	color: #333333;
+}
+.esex
+{
+	padding: 0 20px 10px 20px;
+	color: #333333;
+}
+.sex
+{
+	float: left;
+	padding: 5px 10px;
+}
+.minzu
+{
+	float: left;
+	padding: 5px 10px;
+	color: #333333;
+}
+.pad510
+{
+	float: left;
+	padding: 5px 10px;
+}
+.pad020
+{
+	padding: 0 20px 20px 20px;
+	color: #333333;
+}
+.bortom
+{
+	width:100%;
+	border: 1px solid lightgray;
+	margin-left: 25px;
+}
+.pads20
+{
+	/*float: left;*/
+	padding: 20px;
+	color: #333333;
+}
+.pads010
+{
+	padding: 10px;
+}
+.pads10
+{
+	padding: 10px;
+}

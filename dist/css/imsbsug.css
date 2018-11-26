@@ -1,0 +1,146 @@
+	.imsbsugdata div {
+		float: left;
+		width: 27%;
+		word-break: break-all;
+		padding: 0 10px;
+		font-size: 16px;
+		text-align: center;
+		font-weight: bold;
+		color: rgba(0, 0, 0, .5);
+		word-break: break-word;
+	}
+	
+	.imsbsugdata {
+		border-bottom: 1px solid lightgray;
+		padding: 10px;
+	}
+	
+	.imsbsugheader {
+		padding: 10px;
+		color: #444444;
+	}
+	
+	.imsbsugcontent {
+		border: 1px solid white;
+		border-radius: 5px;
+		width: 90%;
+		margin: 40px auto;
+		background: white;
+		padding: 0 10px;
+		border-top: 2px solid red;
+	}
+	
+	.imsbsugnum {
+		height: 60px;
+		display: table;
+		width: 100%;
+	}
+	
+	.imsbsug_ulodd,
+	.imsbsug_uleven {
+		padding: 0;
+		list-style: none;
+	}
+	
+	.imsbsug_ulodd {
+		vertical-align: middle;
+		display: table-cell;
+		background: #F8F8F8;
+	}
+	
+	.imsbsug_uleven {
+		vertical-align: middle;
+		display: table-cell;
+		background: white;
+	}
+	
+	.imsbsug_ulodd li,
+	.imsbsug_uleven li {
+		float: left;
+		vertical-align: middle;
+		font-size: 14px;
+		width: 27%;
+		padding: 10px;
+		text-align: center;
+		color: gray;
+		cursor: pointer;
+		word-break: break-all;
+	}
+	
+	.imsbsugheads {
+		color: #333333;
+		font-size: 18px;
+		margin-top: 10px;
+	}
+	
+	.imsbsugheads span {
+		padding: 5px;
+		font-size: 16px;
+		letter-spacing: 1px;
+	}
+	.imsbsugheads input {
+		outline: none;
+		font-size: 16px;
+		width: 65px;
+		height: 30px;
+		line-height:30px;
+		background: white;
+		border: none;
+		box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.09);
+	}
+	
+	.imsbsugheads button {
+		background: red;
+		padding: 8px 10px;
+		border-radius: 5px;
+		margin-left: 30px;
+		box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.09);
+		border: 1px;
+		color: white;
+		border-color: white;
+		outline: none;
+		cursor: pointer;
+	}
+	#blsug {
+		position: relative;
+		width: 400px;
+		height: 400px;
+		margin-top: 100px;
+	}
+	#blsugd {
+		position: relative;
+		width: 400px;
+		height: 400px;
+		margin-top: 100px;
+	}
+	.bsday {
+		display: none;
+	}
+	.bsdays {
+		position: absolute;
+		top: 3px;
+		right: 5px;
+		border-radius: 5px;
+		border: 1px solid gray;
+		width: 40px;
+		height: 25px;
+		line-height: 25px;
+		text-align: center;
+		outline: none;
+		cursor: pointer;
+		background: azure;
+	}
+	.bsmonth {
+		position: absolute;
+		top: 3px;
+		right: 5px;
+		border-radius: 5px;
+		border: 1px solid gray;
+		width: 40px;
+		height: 25px;
+		line-height: 25px;
+		text-align: center;
+		outline: none;
+		cursor: pointer;
+		background: azure;
+	}

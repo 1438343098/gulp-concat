@@ -1,0 +1,75 @@
+.serdetailcontent
+{
+	border: 1px solid white;
+	border-radius: 5px;
+	width: 90%;
+	margin: 40px auto;
+	background: white;
+	padding: 0 10px;
+	border-top: 2px solid red;
+}
+.serdetaildata
+{
+	border-bottom: 1px solid lightgray;
+	padding: 20px 10px;
+}
+.serdetaildata div
+{
+	float: left;
+	width: 30%;
+	padding: 0 10px;
+	font-size: 16px;
+	text-align: center;
+	font-weight: bold;
+	color: rgba(0,0,0,.5);
+}
+.serdetaildata div:nth-of-type(1)
+{
+	text-align: left;
+}
+.serdetailcont
+{
+	height:60px;
+	width: 100%;
+}
+
+.serdetailcont ul
+{
+	vertical-align:middle;
+	cursor:pointer;
+}
+.serdetail_ulodd
+{
+	background: #F8F8F8;
+}
+.serdetail_uleven
+{
+	background: white;  
+}
+.serdetailcont ul li
+{
+	float: left;
+	vertical-align: middle;
+	font-size: 15px;
+	width: 30%;
+	padding: 10px;
+	text-align: center;
+	color: gray;
+	letter-spacing: 1px;
+}
+.serdetailcont ul li:nth-of-type(1)
+{
+	text-align: left;
+}
+.serdetailcont ul li:nth-of-type(2)
+{
+	text-align: left;
+}
+.normal
+{
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+

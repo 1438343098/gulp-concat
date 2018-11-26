@@ -1,0 +1,80 @@
+	.unprecordcontent
+	{
+		border: 1px solid white;
+		border-radius: 5px;
+		width: 90%;
+		margin: 40px auto;
+		background: white;
+		padding: 0 10px;
+		border-top: 2px solid red;
+	}
+	.unprecordata
+	{
+		border-bottom: 1px solid lightgray;
+		padding: 20px 10px;
+	}
+	.unprecordata div
+	{
+		float: left;
+		width: 17%;
+		padding: 0 10px;
+		font-size: 16px;
+		text-align: center;
+		font-weight: bold;
+		color: rgba(0,0,0,.5);
+	}
+	.unprecordcont
+	{
+		height:60px;
+		display:table;
+		width: 100%;
+		position: relative;
+	}
+	.unprecordcont ul
+	{
+		vertical-align:middle;
+		display:table-cell;
+		cursor:pointer;
+	}
+	.unprecord_ulodd
+	{
+		background: #F8F8F8;
+	}
+	.unprecord_uleven
+	{
+		background: white;
+	}
+	.unprecord_ulodd li,.unprecord_uleven li
+	{
+		float: left;
+		vertical-align: middle;
+		font-size: 15px;
+		width: 17%;
+		padding: 10px;
+		text-align: center;
+		color: gray;
+	}
+	.listdata
+	{
+		width: 95%;
+	}
+	.trialarm
+	{
+		border-left: 5px solid white;
+		border-right: 5px solid white;
+		border-bottom: 10px solid lightsalmon;
+		width: 0px;
+		height: 0px;
+		position: relative;
+		left:29%;
+	}
+	.radalarm
+	{
+		color: red;
+		text-align: center;
+		border-radius: 10px;
+		padding: 10px;
+		border: 1px solid lightgray;
+		font-size: 14px;
+		font-weight: bold;
+	}

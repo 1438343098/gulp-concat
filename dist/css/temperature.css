@@ -1,0 +1,56 @@
+.temperaturecontent
+{
+	border: 1px solid white;
+	border-radius: 5px;
+	width: 90%;
+	margin: 40px auto;
+	background: white;
+	padding: 0 10px;
+	border-top: 2px solid red;
+}
+.temperaturedata
+{
+	border-bottom: 1px solid lightgray;
+	padding: 20px 10px;
+}
+.temperaturedata div
+{
+	float: left;
+	width: 26%;
+	padding: 0 10px;
+	font-size: 16px;
+	text-align: center;
+	font-weight: bold;
+	color: rgba(0,0,0,.5);
+}
+.temcont
+{
+	height:60px;
+	display:table;
+	width: 100%;
+}
+.temcont ul
+{
+	vertical-align:middle;
+	display:table-cell;
+	cursor:pointer;
+}
+.tem_ulodd
+{
+	background: #F8F8F8;
+}
+.tem_uleven
+{
+	background: white;
+}
+.temcont ul li
+{
+	float: left;
+	vertical-align: middle;
+	font-size: 15px;
+	width: 26%;
+	padding: 10px;
+	text-align: center;
+	color: gray;
+}
+

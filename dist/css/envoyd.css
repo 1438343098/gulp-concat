@@ -1,0 +1,66 @@
+.envoydcontent
+{
+	border: 1px solid white;
+	border-radius: 5px;
+	width: 90%;
+	margin: 40px auto;
+	background: white;
+	padding: 0 10px;
+	border-top: 2px solid red;
+}
+.envoydetaildata
+{
+	border-bottom: 1px solid lightgray;
+	padding: 20px 10px;
+}
+.envoydetaildata div
+{
+	float: left;
+	width: 25%;
+	padding: 0 10px;
+	font-size: 16px;
+	text-align: center;
+	font-weight: bold;
+	color: rgba(0,0,0,.5);
+}
+.envoydcont
+{
+	height:40px;
+	display:table;
+	width: 100%;
+}
+
+.envoydcont ul
+{
+	vertical-align:middle;
+	display:table-cell;
+	cursor:pointer;
+}
+.envoyd_ulodd
+{
+	background: #F8F8F8;
+}
+.envoyd_uleven
+{
+	background: white;
+}
+.envoydcont ul li
+{
+	float: left;
+	vertical-align: middle;
+	font-size: 13px;
+	width: 25%;
+	padding: 10px;
+	text-align: center;
+	color: gray;
+	letter-spacing: 1px;
+}
+.envoydwhite ul li
+{
+	text-align: left;
+}
+.bigadd
+{
+	width:20px;
+	height: 20px;
+}
