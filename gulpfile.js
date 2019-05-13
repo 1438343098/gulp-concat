@@ -5,8 +5,10 @@ var less = require("gulp-less");
 var hint = require("gulp-jshint");
 // css压缩
 var minify = require("gulp-minify-css");
-// 代码报错变色
-var stylish = require("jshint-stylish");
+// css 兼容
+var autoprefixer = require('gulp-autoprefixer');
+//js 压缩插件
+var uglify = require("gulp-uglify");
 // 导入合并模块
 var fs = require("fs");
 var replace = require("gulp-replace");
@@ -17,23 +19,26 @@ var reload = browserSync.reload;
 // 定义js,css,image文件路径
 var paths = {
   less: 'src/less/*.less',
-  js:"src/javascript/*.js",
-	htmlHF:"src/html/"
+  js:"src/js/*.js",
+  htmlHF:"src/html/",
 };
-
-
-//浏览器自动刷新
-gulp.task('browser-sync', function() {
-   browserSync.init({
+// 刷新
+gulp.task('browser-sync', function () {
+    browserSync.init({
         files:['**'],
         server:{
-            baseDir:'./',  // 设置服务器的根目录
-            index:'dist/html/index.html' // 指定默认打开的文件
+            baseDir:'./dist',  // 设置服务器的根目录
+            index:'lease.html' // 指定默认打开的文件
         },
+        proxies: [
+            {
+                source: '/api',
+            }
+          ],
         port:8050  // 指定访问服务器的端口号
     });
 });
-//引入头部底部
+
 //引入头部底部
 gulp.task('include', function() {
     fs.readdir(paths.htmlHF, function(err, files) {
@@ -46,28 +51,44 @@ gulp.task('include', function() {
                         .pipe(replace(/<!--header-->[\s\S]*<!--headerend-->/, '<!--header-->\n' + fs.readFileSync(paths.htmlHF + '_header.html', 'utf-8') + '\n<!--headerend-->'))
                         .pipe(replace(/<!--bodystrat-->[\s\S]*<!--bodyend-->/, '<!--bodystrat-->\n' + fs.readFileSync(paths.htmlHF + '_body.html', 'utf-8') + '\n<!--bodyend-->'))
                         .pipe(replace(/<!--footer-->[\s\S]*<!--footerend-->/, '<!--footer-->\n' + fs.readFileSync(paths.htmlHF + '_footer.html', 'utf-8') + '\n<!--footerend-->'))
-                        .pipe(gulp.dest("dist/html"))
+                        .pipe(gulp.dest("dist"))
                 }
             });
         }
     });
 });
-gulp.task("style",function(){
-	gulp.src(paths.less)
-		.pipe(less())
-		.pipe(minify())
-		.pipe(gulp.dest("./dist/css"))
-		.pipe(browserSync.stream())
-	
+
+
+// js处理
+gulp.task("script",function(){
+    gulp.src(paths.js)
+        .pipe(hint())
+		.pipe(uglify())	
+		.pipe(gulp.dest("./dist/js"))
 })
+
+
+// 样式处理
+gulp.task("style",function(){
+    gulp.src(paths.less)
+        .pipe(less())
+        .pipe(minify())
+        .pipe(autoprefixer())
+		.pipe(gulp.dest("./dist/css"))
+})
+
+
 //文件改动检测
 gulp.task('watch', function(){
   gulp.watch(paths.js,["script"]);
-  gulp.watch(paths.less,["style"]);;
-	gulp.watch(['src/html/_header.html', 'src/html/_footer.html'], ['include']);
-  gulp.watch(paths.html).on("change",reload);
+  gulp.watch(paths.less,["style"]);
+  gulp.watch(['src/html/_header.html', 'src/html/_footer.html'], ['include']);
+  gulp.watch('./src/html/*.html',['include']).on("change",reload);
+  
 });
 
 
+
+
 //创建default任务
-gulp.task("default",["style","include","watch",'browser-sync']);
+gulp.task("default",["style","script","include","watch","browser-sync"]);
